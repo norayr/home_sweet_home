@@ -1,0 +1,10 @@
+# This file automatically written by the Pidgin GTK+ Theme Control plugin.
+# Any changes to this file will be overwritten by the plugin when told to
+# write the settings again.
+# The FAQ (http://developer.pidgin.im/wiki/FAQ) contains some further examples
+# of possible pidgin gtkrc settings.
+gtk-font-name = "Arian Grqi 14"
+style "purplerc_style"
+{
+}
+widget_class "*" style "purplerc_style"
