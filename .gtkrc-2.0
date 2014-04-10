@@ -8,3 +8,5 @@ style "purplerc_style"
 {
 }
 widget_class "*" style "purplerc_style"
+#to edit menu shortcuts
+gtk-can-change-accels = 1
