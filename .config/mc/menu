@@ -1,0 +1,21 @@
+#### Audio File Menu ####
++ f \.wav$ | f \.mp3$ | f \.au$ | f \.aiff$ | f \.snd$ | f \.mp2$ | f \.flac$ | f \.wma$ | f \.snd$ | f \.mpc$ | f \.ac3$ |
+f \.mid$ | f \.ogg$ $ & t n
+1       mplayer
+        mplayer %f
++ f \.wav$ | f \.mp3$ | f \.au$ | f \.aiff$ | f \.snd$ | f \.mp2$ | f \.flac$ | f \.wma$ | f \.snd$ | f \.mpc$ | f \.ac3$ |
+f \.mid$ | f \.ogg$ $ & t n
+2       aplay
+        aplay %f
++ f \.wav$ | f \.mp3$ | f \.au$ | f \.aiff$ | f \.snd$ | f \.mp2$ | f \.flac$ | f \.wma$ | f \.snd$ | f \.mpc$ | f \.ac3$ |
+f \.mid$ | f \.ogg$ $ & t n
+3       ffmpeg -i (show audio/video info)
+        ffmpeg -i %f
++ f \.wav$ | f \.mp3$ | f \.au$ | f \.aiff$ | f \.snd$ | f \.mp2$ | f \.flac$ | f \.wma$ | f \.snd$ | f \.mpc$ | f \.ac3$ |
+f \.mid$ | f \.ogg$ $ & t n
+4       audacity
+        audacity %f
++ f \.wav$ | f \.mp3$ | f \.au$ | f \.aiff$ | f \.snd$ | f \.mp2$ | f \.flac$ | f \.wma$ | f \.snd$ | f \.mpc$ | f \.ac3$ |
+f \.mid$ | f \.ogg$ $ & t n
+5       Encode to *.mp3
+        enc2mp3 %f
