@@ -1,0 +1,136 @@
+DEU - 98.8 KISS FM
+http://edge.live.mp3.mdn.newmedia.nacamar.net/kissfm/livestream.mp3
+
+DEU - Antenne Bayern
+http://mp3.webradio.antenne.de:80
+
+DEU - Defjay Germany
+http://sc1.netstreamer.net:8042
+
+DEU - TechnoBase.FM
+http://dsl.tb-stream.net:80
+
+DEU - TechnoBase.FM
+http://dsl.tb-stream.net:80
+
+DEU - TranceBase.FM
+http://mp3.trb-stream.net
+
+DEU - WDR 1Live
+http://gffstream.ic.llnwd.net/stream/gffstream_stream_wdr_einslive_a
+
+ESP - 94.3 Qfm Jazz
+http://s1.viastreaming.net:7420/
+
+ESP - Europa FM Gipuzkoa
+http://stream.europafmgipuzkoa.com
+
+ESP - Ibiza Sonica
+http://stream2.wft.es:1025
+
+FIN - Bassoradio
+http://83.145.201.209:8000/
+
+FIN - Hamsi FM
+http://radyo.infoturk.fi:8050/
+
+FIN - Iskelma
+http://wr.iskelma.fi:80
+
+FIN - Radio SuomiPOP
+http://217.30.180.242:8000/rspo.mp3
+
+FIN - The Voice
+http://83.145.249.98:80/
+
+FRA - Bollywood Music Radio
+http://stream.bollywoodmusicradio.com:80/
+
+FRA - .Fréquence India ex Nimbooda
+http://www.radionimbooda.net:80
+
+FRA - Fun Radio
+http://streaming.radio.funradio.fr:80/fun-1-44-96
+
+FRA - // MAXXHITS //
+http://phoenix.maxxhits.eu:80/
+
+FRA - Monte Carlo Doualiya
+http://mp3.live.tv-radio.com/montecarlodoualiya/all/montecarlodoualiya-128k.mp3
+
+FRA - OUIFM - Plus Libre Plus Rock - Live from Paris
+
+http://broadcast.infomaniak.net:80/ouifm-high.mp3
+
+FRA - RFI Chinese
+http://mp3.live.tv-radio.com/rfi/all/rfichinois.mp3
+
+FRA - RTL
+http://streaming.radio.rtl.fr/rtl-1-44-64
+
+GBR - 102.4 Wish FM
+http://stream1.radiomonitor.com/Wish
+
+GBR- 95.8 Capital FM
+http://media-ice.musicradio.com/CapitalMP3
+
+GBR - BBC World Service
+http://mp32.bbc.streamuk.com:80
+
+GBR - BBC World Service - English News
+http://mp33.bbc.streamuk.com:80
+
+ITA - R101
+http://str30.creacast.com:80/r101a
+
+ITA - RTL 102.5
+http://shoutcast.rtl.it:3010/
+
+NLD - 100% NL
+http://wm1.streaming.castor.nl:8000/100pctnl.mp3
+
+NLD - Fresh FM
+http://stream22.multikabel.net:80/
+
+NLD - Radio 1
+http://shoutcast.omroep.nl:8100
+
+RUS - 16BIT.FM
+http://16bit.fm:9000
+
+RUS - 90's Dance - 101.ru
+http://94.23.194.126:8000/c7_8
+
+RUS - BBC Russian
+http://mp34.bbc.streamuk.com:80/
+
+USA - 100hitz - New Country
+http://in.100hitz-32.sc.abacast.com:2186
+
+USA - 100hitz - Top 40
+http://in.100hitz-32.sc.abacast.com:2318
+
+USA - 100hitz - Urban Jamz
+http://in.100hitz-32.sc.abacast.com:2322
+
+USA - 1.FM - Bombay Beats
+http://sc12.1.fm:7044
+
+USA - 1.FM - Top 40
+http://sc8.1.fm:7016
+
+USA - .977 Classic Rock / Classic Rock 104
+http://sc1.cdn.radiostorm.com:7010
+
+USA - BassDrive
+http://aol.streams.bassdrive.com:8008
+
+USA - Defjay USA
+http://sc1.netstreamer.net:8000
+
+USA - Desi Music Mix!
+http://desimusicmix.com:8012/
+
+USA - Washington Bangla Radio
+http://banglaradio.homeip.net:8000
+
