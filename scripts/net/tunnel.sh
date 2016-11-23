@@ -7,7 +7,8 @@ IFACE=ppp0
 while [ "1" -ne "0" ]
 do
 
-   IP=`ifconfig ppp0 | grep Mask | cut -d ":" -f 2 | cut -f 1 -d " "`
+#   IP=`ifconfig ppp0 | grep Mask | cut -d ":" -f 2 | cut -f 1 -d " "`
+   IP=`ifconfig ppp0 | grep netmask | awk ' { print $2 } '`
 
    if [ "$IP" == "$IP0" ]
    then
@@ -17,6 +18,6 @@ do
       echo "restarting ppp over ssh"
       ./pppssh.sh start
    fi
-   sleep 15m
+   sleep 5m
 done
 
