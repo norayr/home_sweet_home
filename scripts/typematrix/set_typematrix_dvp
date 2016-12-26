@@ -1,0 +1,14 @@
+#!/bin/bash
+{
+sleep 1
+DISPLAY=":0.0"
+HOME=/home/mbitard/
+XAUTHORITY=$HOME/.Xauthority
+export DISPLAY XAUTHORITY HOME
+export XAUTHORITY HOME
+ID=`xinput list | grep TypeMatrix | grep keyboard | sed 's/.*id=\([0-9]*\).*/\1/'` 
+#setxkbmap -device $ID us -variant dvorak-alt-intl
+setxkbmap -device $ID "us(dvp), am, ru(phonetic)" -option "grp:alt_shift_toggle,grp_led:scroll"
+# mapping insert on mail key
+xmodmap -e 'keycode 163=Insert'
+} &

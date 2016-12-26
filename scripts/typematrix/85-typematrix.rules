@@ -1,0 +1,1 @@
+ACTION=="add", ATTR{idProduct}=="2030", RUN+="/usr/bin/set_typematrix_dvp"
