@@ -69,7 +69,8 @@ function make_strob_animation()
   do
 	#newnumber='00000'${i#foo}      # get number, pack with zeros
 	#newnumber=${newnumber:(-5)}       # the last five characters
-    number=`printf foo%04d.png $i` #mplayer shots look like shot0042.png
+    #number=`printf ${1}%04d.${2} $i` #mplayer shots look like shot0042.png
+    number=`printf %04d $i`
 	list="$list ${1}${number}.${2}"
 
   done
