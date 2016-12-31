@@ -98,9 +98,9 @@ function make_strob_animation()
 	filename="${i%.*}"
     convert -resize %50 $i ${filename}_${postfix}.${extension}
     output="${output} ${filename}_${postfix}.${extension}"
-    $3=$output
   done
 
+    $3=$output
 
   }
 
@@ -117,11 +117,11 @@ function make_strob_animation()
 	#filename=$(basename "$fullfile")
 	extension="${i##*.}"
 	filename="${i%.*}"
-    convert -resize %50 $i ${filename}_${postfix}.${extension}
+    convert -resize %25 $i ${filename}_${postfix}.${extension}
     output="${output} ${filename}_${postfix}.${extension}"
-    $3=$output
   done
-
+  
+  $3=$output
 
   }
 
