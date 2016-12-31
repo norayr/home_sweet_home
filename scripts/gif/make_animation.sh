@@ -1,7 +1,7 @@
 #first argument - name of the output gif
 #second argument - delay
 #next arguments - list of files to make animation from them.
-
+set -x
 function make_animation()
 {
   list=""
@@ -61,7 +61,6 @@ function make_strob_animation()
   #second argument - file extension, like "png"
   #third argument - first number
   #fourth argument - last number
-  #fifth argument - list to return
   function gen_list()
   {
   list=""
@@ -71,10 +70,12 @@ function make_strob_animation()
 	#newnumber=${newnumber:(-5)}       # the last five characters
     #number=`printf ${1}%04d.${2} $i` #mplayer shots look like shot0042.png
     number=`printf %04d $i`
-	list="$list ${1}${number}.${2}"
+	item="${1}${number}.${2}"
+	echo $item
+	#list="$list $item"
 
   done
-  $4=$list 
+  #$5=$list 
   }
 
   # creates files with half size of the originals and returns the file list.
@@ -150,4 +151,24 @@ function make_strob_animation()
     $1=$output
 
   }
+
+# assumes that prefix is 'shot', postfix - '_small', extension - 'png'.
+# arguments:
+# $1 - output file name
+# $2 - initial number of screenshot
+# $3 - last number of screenshot
+# $4 - delay
+
+function animate_mplayer_screenshots()
+{
+start_frame=$2
+end_frame=$3
+lst=`gen_list shot png $start_frame $end_frame`
+newlst=`half_size small $lst`
+make_animation $1 $4 $lst
+make_strob_animation ${1}_ $4 $lst
+make_animation ${1}_small $4 $newlst
+make_strob_animation ${1}_small_ $4 $newlst
+rm -f $newlst
+}
 
