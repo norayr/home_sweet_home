@@ -66,7 +66,7 @@ arguments:
 usage:
 
 ```
-newlist=`half_size "_small" $list`
+newlist=`half_size small $list`
 ```
 
 
