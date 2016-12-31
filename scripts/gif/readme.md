@@ -1,4 +1,4 @@
-functins to make animations from file lists, or generate those lists.
+functions to make animations from file lists, or generate those lists.
 
 using
 ====
@@ -52,7 +52,7 @@ arguments:
 
 usage:
 ```
-gen_list shot png 23 42 $list
+list=`gen_list shot png 23 42`
 ```
 
 * half_size()
