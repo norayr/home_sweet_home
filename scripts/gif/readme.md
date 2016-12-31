@@ -35,13 +35,25 @@ arguments:
 ** last number
 ** list to return
 
+* half_size()
+
+arguments:
+
+** $1 - some postfix, like "_small". if the input files look like "shot007.png" then output files will look like "shot007_small.png".
+** $2 - input list.
+** $3 - output list.
+
+* quarter_size()
+
+the same as the function above, but will create even smaller files.
+
 example
 =======
 
 to get list of files:
 
 ```
-gen_list shot png 23 42 list
+gen_list shot png 23 42 $list
 ```
 to make gif from them:
 
@@ -49,5 +61,28 @@ to make gif from them:
 make_animation rain 15 $list
 ```
 
-that is all folks.
+will create rain.gif from the $list list.
+
+```
+make_strob_animation rain 15 $list
+```
+
+will create smaller output animation because it'll take only every second file.
+
+it's possible to resize files before making an animation.
+
+```
+gen_list shot png 23 42 $list
+
+half_size _small $list $newlist
+
+make_animation rain 15 $newlist
+
+make_strob_animation rain 15 $newlist
+
+rm -f $newlist
+```
+
+caller is responsible in removing temporary resized files.
+
 
