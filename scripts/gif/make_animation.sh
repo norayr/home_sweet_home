@@ -77,3 +77,51 @@ function make_strob_animation()
   $4=$list 
   }
 
+  # creates files with half size of the originals and returns the file list.
+  # arguments:
+  # $1 - postfix, like "half" or "small" or "sm"
+  # $2 - input list
+  # $3 - output list
+  # caller is encouraged to remove temporary files after using them.
+
+  function half_size()
+  {
+  postfix=$1
+  input=$2
+  output=""
+
+  for i in $input
+  do
+    
+	#filename=$(basename "$fullfile")
+	extension="${i##*.}"
+	filename="${i%.*}"
+    convert -resize %50 $i ${filename}_${postfix}.${extension}
+    output="${output} ${filename}_${postfix}.${extension}"
+    $3=$output
+  done
+
+
+  }
+
+
+  function quarter_size()
+  {
+  postfix=$1
+  input=$2
+  output=""
+
+  for i in $input
+  do
+    
+	#filename=$(basename "$fullfile")
+	extension="${i##*.}"
+	filename="${i%.*}"
+    convert -resize %50 $i ${filename}_${postfix}.${extension}
+    output="${output} ${filename}_${postfix}.${extension}"
+    $3=$output
+  done
+
+
+  }
+
