@@ -14,7 +14,9 @@ functions
 
 takes following args:
 ** name of the output gif file.
+
 ** delay
+
 ** list of files
 
 * make_strob_animation()
@@ -30,17 +32,24 @@ let's say we want to make an animation from the files shot0023.png .. shot0042.p
 arguments:
 
 ** prefix (i. e. "shot")
+
 ** extension (i. e. "png")
+
 ** first number
+
 ** last number
+
 ** list to return
+
 
 * half_size()
 
 arguments:
 
 ** $1 - some postfix, like "_small". if the input files look like "shot007.png" then output files will look like "shot007_small.png".
+
 ** $2 - input list.
+
 ** $3 - output list.
 
 * quarter_size()
