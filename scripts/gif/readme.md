@@ -12,16 +12,19 @@ functions
 
 * make_animation()
 
-takes following args:
+arguments:
+
 ** name of the output gif file.
 
 ** delay
 
 ** list of files
 
+
 * make_strob_animation()
 
 the function differs from the previous one in that it only uses every second file from the list.
+
 
 * gen_list()
 
