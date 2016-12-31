@@ -81,13 +81,24 @@ function make_strob_animation()
   # arguments:
   # $1 - postfix, like "half" or "small" or "sm"
   # $2 - input list
-  # $3 - output list
   # caller is encouraged to remove temporary files after using them.
 
   function half_size()
   {
-  postfix=$1
-  input=$2
+  #creating input list and finding postfix
+  input=""
+  for i in $@
+  do
+
+    if [[ "$i" == "$1" ]]
+    then
+      postfix=$i 
+    else
+      input="${input} ${i}"
+    fi
+
+  done
+
   output=""
 
   for i in $input
@@ -96,19 +107,32 @@ function make_strob_animation()
 	#filename=$(basename "$fullfile")
 	extension="${i##*.}"
 	filename="${i%.*}"
-    convert -resize %50 $i ${filename}_${postfix}.${extension}
-    output="${output} ${filename}_${postfix}.${extension}"
+    newfilename="${filename}_${postfix}.${extension}"
+    convert -resize %50 $i ${newfilename}
+    output="${output} ${newfilename}"
+    echo ${newfilename}
   done
 
-    $3=$output
+    $1=$output
 
   }
 
-
   function quarter_size()
   {
-  postfix=$1
-  input=$2
+  #creating input list and finding postfix
+  input=""
+  for i in $@
+  do
+
+    if [[ "$i" == "$1" ]]
+    then
+      postfix=$i 
+    else
+      input="${input} ${i}"
+    fi
+
+  done
+
   output=""
 
   for i in $input
@@ -117,11 +141,13 @@ function make_strob_animation()
 	#filename=$(basename "$fullfile")
 	extension="${i##*.}"
 	filename="${i%.*}"
-    convert -resize %25 $i ${filename}_${postfix}.${extension}
-    output="${output} ${filename}_${postfix}.${extension}"
+    newfilename="${filename}_${postfix}.${extension}"
+    convert -resize %25 $i ${newfilename}
+    output="${output} ${newfilename}"
+    echo ${newfilename}
   done
-  
-  $3=$output
+
+    $1=$output
 
   }
 

@@ -1,7 +1,9 @@
 functins to make animations from file lists, or generate those lists.
 
-usage
+using
 ====
+
+to use it, "import" it.
 
 ```
 source ./make_animation.sh
@@ -20,6 +22,10 @@ arguments:
 
 ** list of files
 
+usage:
+```
+make_animation rain 16 $list
+```
 
 * make_strob_animation()
 
@@ -44,6 +50,10 @@ arguments:
 
 ** list to return
 
+usage:
+```
+gen_list shot png 23 42 $list
+```
 
 * half_size()
 
@@ -53,13 +63,18 @@ arguments:
 
 ** $2 - input list.
 
-** $3 - output list.
+usage:
+
+```
+newlist=`half_size "_small" $list`
+```
+
 
 * quarter_size()
 
 the same as the function above, but will create even smaller files.
 
-example
+examples
 =======
 
 to get list of files:
@@ -86,7 +101,7 @@ it's possible to resize files before making an animation.
 ```
 gen_list shot png 23 42 $list
 
-half_size _small $list $newlist
+newlist=`half_size _small $list`
 
 make_animation rain 15 $newlist
 
