@@ -3,15 +3,25 @@ nm=${1%.*}
 #opts="-codec:v libx264 -crf 18 -preset fast -codec:a aac -strict -2 -b:a 192k"
 opts="-codec:v libx264 -crf 18 -preset fast -codec:a copy -strict -2 -b:a 192k"
 
-# several
+# several0
+#ffmpeg -i $1 -filter_complex \
+#"[0:a]avectorscope=s=640x518,pad=1280:720[vs]; \
+# [0:a]showspectrum=mode=separate:color=intensity:scale=cbrt:s=640x518[ss]; \
+# [0:a]showwaves=s=1280x202:mode=line[sw]; \
+# [vs][ss]overlay=w[bg]; \
+# [bg][sw]overlay=0:H-h,drawtext=fontfile=/usr/share/fonts/arnamu-fonts/arnamu.ttf:fontcolor=white:x=10:y=10:text='\"Song Title\" by Artist'[out]" \
+#-map "[out]" -map 0:a -c:v libx264 -preset fast -crf 18 -c:a copy ${nm}_mixed.mkv
+
+
+# several1
+
 ffmpeg -i $1 -filter_complex \
-"[0:a]avectorscope=s=640x518,pad=1280:720[vs]; \
+"[0:a]showfreqs=s=640x518:mode=line:fscale=log,pad=1280:720[vs]; \
  [0:a]showspectrum=mode=separate:color=intensity:scale=cbrt:s=640x518[ss]; \
  [0:a]showwaves=s=1280x202:mode=line[sw]; \
  [vs][ss]overlay=w[bg]; \
  [bg][sw]overlay=0:H-h,drawtext=fontfile=/usr/share/fonts/arnamu-fonts/arnamu.ttf:fontcolor=white:x=10:y=10:text='\"Song Title\" by Artist'[out]" \
 -map "[out]" -map 0:a -c:v libx264 -preset fast -crf 18 -c:a copy ${nm}_mixed.mkv
-
 
 # showwaves
 #ffmpeg -i $1 -filter_complex "[0:a]showwaves=s=1280x720:mode=line:rate=25,format=yuv420p[v]" -map "[v]" -map 0:a $opts ${nm}_showwaves.mp4
