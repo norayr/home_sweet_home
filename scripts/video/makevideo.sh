@@ -1,3 +1,5 @@
+# reference http://video.stackexchange.com/questions/9644/how-do-i-turn-audio-into-video-that-is-show-the-waveforms-in-a-video
+
 nm=${1%.*}
 
 #opts="-codec:v libx264 -crf 18 -preset fast -codec:a aac -strict -2 -b:a 192k"
