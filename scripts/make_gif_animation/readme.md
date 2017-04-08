@@ -1,3 +1,5 @@
+moved to the [separate](https://github.com/norayr/make_gif_animation) repository.
+
 functions to make animations from file lists, or generate those lists.
 
 using
