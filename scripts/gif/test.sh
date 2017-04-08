@@ -2,7 +2,7 @@ source ./make_animation.sh
 
 #list=`gen_list _MG_ JPG 8452 8472`
 #list=`gen_list _MG_ JPG 8452 8500`
-list=`gen_list DSCF JPG 8018 8023`
+list=`gen_list DSCF JPG 8018 8135`
 
 
 echo $list

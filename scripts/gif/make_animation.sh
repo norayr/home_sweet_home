@@ -71,7 +71,9 @@ function make_strob_animation()
     #number=`printf ${1}%04d.${2} $i` #mplayer shots look like shot0042.png
     number=`printf %04d $i`
 	item="${1}${number}.${2}"
-	echo $item
+	if [ -f /tmp/foo.txt ]; then
+      echo $item
+	fi
 	#list="$list $item"
 
   done
