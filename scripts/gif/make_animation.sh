@@ -152,6 +152,74 @@ function make_strob_animation()
 
   }
 
+  function eighth_size()
+  {
+  #creating input list and finding postfix
+  input=""
+  for i in $@
+  do
+
+    if [[ "$i" == "$1" ]]
+    then
+      postfix=$i 
+    else
+      input="${input} ${i}"
+    fi
+
+  done
+
+  output=""
+
+  for i in $input
+  do
+    
+	#filename=$(basename "$fullfile")
+	extension="${i##*.}"
+	filename="${i%.*}"
+    newfilename="${filename}_${postfix}.${extension}"
+    convert -resize %12.5 $i ${newfilename}
+    output="${output} ${newfilename}"
+    echo ${newfilename}
+  done
+
+    $1=$output
+
+  }
+
+  function sixteenth_size()
+  {
+  #creating input list and finding postfix
+  input=""
+  for i in $@
+  do
+
+    if [[ "$i" == "$1" ]]
+    then
+      postfix=$i 
+    else
+      input="${input} ${i}"
+    fi
+
+  done
+
+  output=""
+
+  for i in $input
+  do
+    
+	#filename=$(basename "$fullfile")
+	extension="${i##*.}"
+	filename="${i%.*}"
+    newfilename="${filename}_${postfix}.${extension}"
+    convert -resize %6.25 $i ${newfilename}
+    output="${output} ${newfilename}"
+    echo ${newfilename}
+  done
+
+    $1=$output
+
+  }
+
 # assumes that prefix is 'shot', postfix - '_small', extension - 'png'.
 # arguments:
 # $1 - output file name
