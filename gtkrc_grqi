@@ -1,4 +1,4 @@
-#font
-gtk-font-name = "Arian Grqi 14"
 #to edit menu shortcuts
 gtk-can-change-accels = 1
+#font
+gtk-font-name = "Arian Grqi 14"
