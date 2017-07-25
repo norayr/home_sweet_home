@@ -1,0 +1,138 @@
+{
+  FrameBorderColor = "#000000";
+  FTitleColor = "#ffffff";
+  LTCMaximizeKey = None;
+  CycleIgnoreMinimized = NO;
+  MenuDisabledColor = "#7f7f7f";
+  LastWorkspaceKey = None;
+  IconTitleBack = "#000000";
+  PixmapPath = (
+    "/home/noch/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/noch/GNUstep/Library/WindowMaker/Backgrounds",
+    "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/include/X11/pixmaps",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps"
+  );
+  MoveToWorkspace9Key = None;
+  MoveToPrevWorkspaceLayerKey = None;
+  ClipTitleFont = "Syntax LT Std:slant=0:weight=80:width=100:pixelsize=10";
+  MiniwindowPreviewBalloons = NO;
+  MouseForwardButtonAction = None;
+  IconTitleFont = "Syntax LT Std:slant=0:weight=80:width=100:pixelsize=9";
+  MoveToWorkspace7Key = None;
+  LargeDisplayFont = "Syntax LT Std:slant=0:weight=80:width=100:pixelsize=24";
+  RBCMaximizeKey = None;
+  WindowShortcut10Key = None;
+  IconTitleColor = "#ffffff";
+  MoveToWorkspace2Key = None;
+  MouseWheelTiltAction = None;
+  MenuTitleColor = "#ffffff";
+  WindowShortcut3Key = None;
+  MenuTitleFont = "Syntax LT Std:slant=0:weight=200:width=100:pixelsize=12";
+  EnableWorkspacePager = YES;
+  WindowRelaunchKey = None;
+  WindowShortcut4Key = None;
+  NoWindowOverDock = NO;
+  OmnipresentKey = None;
+  SnapEdgeDetect = 1;
+  LBCMaximizeKey = None;
+  HighlightTextColor = "#000000";
+  WindowShortcut9Key = None;
+  HelpBalloons = NO;
+  WindowSnapping = NO;
+  KeepAtBottomKey = None;
+  MoveResizeKey = None;
+  KeepOnTopKey = None;
+  AppIconBalloons = NO;
+  ClipTitleColor = "#000000";
+  FrameFocusedBorderColor = "#000000";
+  WindowTitleFont = "Syntax LT Std:slant=0:weight=200:width=100:pixelsize=12";
+  MoveToWorkspace8Key = None;
+  Workspace8Key = "Control+parenright";
+  RunKey = None;
+  Workspace9Key = "Control+plus";
+  LHMaximizeKey = None;
+  MoveToPrevWorkspaceKey = None;
+  RootMenuKey = None;
+  MoveToWorkspace6Key = None;
+  Workspace4Key = "Control+braceright";
+  MoveToWorkspace10Key = None;
+  MouseBackwardButtonAction = None;
+  BHMaximizeKey = None;
+  Workspace5Key = "Control+parenleft";
+  Workspace6Key = "Control+equal";
+  OpenTransientOnOwnerWorkspace = YES;
+  CycleActiveHeadOnly = NO;
+  Workspace7Key = "Control+asterisk";
+  Workspace1Key = "Control+ampersand";
+  Workspace2Key = "Control+bracketleft";
+  MoveToWorkspace1Key = None;
+  Workspace3Key = "Control+braceleft";
+  IgnoreGtkHints = NO;
+  ShowClipTitle = YES;
+  WindowShortcut1Key = None;
+  RHMaximizeKey = None;
+  FrameSelectedBorderColor = "#ffffff";
+  THMaximizeKey = None;
+  WindowShortcut2Key = None;
+  MoveToNextWorkspaceLayerKey = None;
+  WorkspaceMapKey = "Mod4+Tab";
+  DragMaximizedWindow = Move;
+  DoNotMakeAppIconsBounce = NO;
+  MiniwindowTitleBalloons = NO;
+  MaximusKey = None;
+  WindowShortcut7Key = None;
+  OpaqueResize = NO;
+  RaiseAppIconsWhenBouncing = NO;
+  ResizeIncrement = 0;
+  CycleWorkspaces = YES;
+  WindowShortcut8Key = None;
+  OpaqueMoveResizeKeyboard = NO;
+  MoveToLastWorkspaceKey = None;
+  GroupNextKey = None;
+  MenuTextColor = "#000000";
+  SingleClickLaunch = NO;
+  Attraction = NO;
+  AntialiasedText = YES;
+  DisableBlinking = NO;
+  MoveToWorkspace5Key = None;
+  WorkspaceNameDisplayPosition = center;
+  WindowListKey = None;
+  MenuTextFont = "Syntax LT Std:slant=0:weight=80:width=100:pixelsize=12";
+  ScreenSwitchKey = None;
+  SnapCornerDetect = 10;
+  MoveToNextWorkspaceKey = None;
+  HMaximizeKey = None;
+  CloseKey = "Mod1+F4";
+  HighlightColor = "#ffffff";
+  GroupPrevKey = None;
+  Workspace10Key = "Control+bracketright";
+  MinimizeAllKey = None;
+  MoveToWorkspace3Key = None;
+  CClipTitleColor = "#616161";
+  WindowShortcut5Key = None;
+  HideOthersKey = None;
+  IconPath = (
+    "/home/noch/GNUstep/Library/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/include/X11/pixmaps",
+    "/home/noch/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "/usr/share/icons",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps"
+  );
+  WindowShortcut6Key = None;
+  BounceAppIconsWhenUrgent = YES;
+  ViKeyMenus = NO;
+  UTitleColor = "#000000";
+  HighlightActiveApp = YES;
+  CirculateRaise = NO;
+  PTitleColor = "#ffffff";
+  MoveToWorkspace4Key = None;
+  RTCMaximizeKey = None;
+}

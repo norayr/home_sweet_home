@@ -1,0 +1,207 @@
+{
+  soffice.Soffice = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  };
+  xpad.Xpad = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xpad.Xpad.xpm";
+  };
+  firefox.Firefox = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
+  };
+  leafpad.Leafpad = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/leafpad.Leafpad.xpm";
+  };
+  lazarus.Lazarus = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/lazarus.Lazarus.xpm";
+  };
+  gpodder.Gpodder = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gpodder.Gpodder.xpm";
+  };
+  abiword.Abiword = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword.Abiword.xpm";
+  };
+  darktable.Darktable = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/darktable.Darktable.xpm";
+  };
+  "sun-applet-PluginMain.sun-applet-PluginMain" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-applet-PluginMain.sun-applet-PluginMain.xpm";
+  };
+  "ufraw-gimp.Ufraw-gimp" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ufraw-gimp.Ufraw-gimp.xpm";
+  };
+  "libreoffice.libreoffice-calc" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/libreoffice.libreoffice-calc.xpm";
+  };
+  inkscape.Inkscape = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/inkscape.Inkscape.xpm";
+  };
+  gringotts.Gringotts = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gringotts.Gringotts.xpm";
+  };
+  glade.Glade = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/glade.Glade.xpm";
+  };
+  startlazarus.Startlazarus = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/startlazarus.Startlazarus.xpm";
+  };
+  thunderbird.Thunderbird = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/thunderbird.Thunderbird.xpm";
+  };
+  xterm.XTerm = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xterm.XTerm.xpm";
+  };
+  main.psi = {
+    NoMiniaturizable = Yes;
+    AlwaysUserIcon = No;
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/main.psi.xpm";
+  };
+  ricin.Ricin = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ricin.Ricin.xpm";
+  };
+  screenshot.Screenshot = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/screenshot.Screenshot.xpm";
+  };
+  gedit.Gedit = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  };
+  "bitcoin-qt.Bitcoin-Qt" = {
+    KeepInsideScreen = Yes;
+    AlwaysUserIcon = No;
+    NoResizebar = Yes;
+  };
+  zim.Zim = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/zim.Zim.xpm";
+  };
+  seamonkey.Seamonkey = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/seamonkey.Seamonkey.xpm";
+  };
+  gthumb.Gthumb = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gthumb.Gthumb.xpm";
+  };
+  "libreoffice.LibreOffice 5.1" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/libreoffice.LibreOffice 5.1.xpm";
+  };
+  "gimp-2.9.Gimp-2.9" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.9.Gimp-2.9.xpm";
+  };
+  groupLeader.WPrefs = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/groupLeader.WPrefs.xpm";
+  };
+  ufraw.Ufraw = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ufraw.Ufraw.xpm";
+  };
+  project1.Project1 = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/project1.Project1.xpm";
+  };
+  geeqie.Geeqie = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/geeqie.Geeqie.xpm";
+  };
+  gnumeric.Gnumeric = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gnumeric.Gnumeric.xpm";
+  };
+  avidemux3_qt4.Avidemux3_qt4 = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/avidemux3_qt4.Avidemux3_qt4.xpm";
+  };
+  ogmrip.Ogmrip = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ogmrip.Ogmrip.xpm";
+  };
+  "libreoffice.libreoffice-startcenter" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/libreoffice.libreoffice-startcenter.xpm";
+  };
+  Pidgin.Pidgin = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Pidgin.Pidgin.xpm";
+  };
+  "libreoffice.libreoffice-writer" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/libreoffice.libreoffice-writer.xpm";
+  };
+  "transmission-gtk.Transmission-gtk" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/transmission-gtk.Transmission-gtk.xpm";
+  };
+  guvcview.Guvcview = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/guvcview.Guvcview.xpm";
+  };
+  "vmware-installer.py.Vmware-installer.py" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/vmware-installer.py.Vmware-installer.py.xpm";
+  };
+  command_shell.Ddd = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/command_shell.Ddd.xpm";
+  };
+  pluma.Pluma = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/pluma.Pluma.xpm";
+  };
+  stardict.Stardict = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/stardict.Stardict.xpm";
+  };
+  "java-lang-Thread.java-lang-Thread" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/java-lang-Thread.java-lang-Thread.xpm";
+  };
+  acroread.Acroread = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/acroread.Acroread.xpm";
+  };
+  "qemu-system-i386.Qemu-system-i386" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/qemu-system-i386.Qemu-system-i386.xpm";
+  };
+  gimp.Gimp = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp.Gimp.xpm";
+  };
+  qtox.qTox = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/qtox.qTox.xpm";
+  };
+  atril.Atril = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/atril.Atril.xpm";
+  };
+  SynCompletionSample.SynCompletionSample = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/SynCompletionSample.SynCompletionSample.xpm";
+  };
+  "gimp-2.8.Gimp-2.8" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.8.Gimp-2.8.xpm";
+  };
+  lhelp.Lhelp = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/lhelp.Lhelp.xpm";
+  };
+  fpm2.Fpm2 = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/fpm2.Fpm2.xpm";
+  };
+  "vmware-modconfig.Vmware-modconfig" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/vmware-modconfig.Vmware-modconfig.xpm";
+  };
+  LEILAPictureToolbox.LEILAPictureToolbox = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/LEILAPictureToolbox.LEILAPictureToolbox.xpm";
+  };
+  "sun-awt-X11-XEmbeddedFramePeer.java-lang-Thread" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XEmbeddedFramePeer.java-lang-Thread.xpm";
+  };
+  VirtualBox.VirtualBox = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/VirtualBox.VirtualBox.xpm";
+  };
+  "libreoffice.libreoffice-draw" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/libreoffice.libreoffice-draw.xpm";
+  };
+  "sun-awt-X11-XFramePeer.sun-applet-PluginMain" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.sun-applet-PluginMain.xpm";
+  };
+  "sun-awt-X11-XFramePeer.java-lang-Thread" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.java-lang-Thread.xpm";
+  };
+  GraphicTest.GraphicTest = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/GraphicTest.GraphicTest.xpm";
+  };
+  PTBatcherGUI.PTBatcherGUI = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/PTBatcherGUI.PTBatcherGUI.xpm";
+  };
+  "org-fibs-geotag-Geotag.org-fibs-geotag-Geotag" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/org-fibs-geotag-Geotag.org-fibs-geotag-Geotag.xpm";
+  };
+  galculator.Galculator = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/galculator.Galculator.xpm";
+  };
+  print.Print = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/print.Print.xpm";
+  };
+  nedit.NEdit = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/nedit.NEdit.xpm";
+  };
+  xterm.UXTerm = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xterm.UXTerm.xpm";
+  };
+}
