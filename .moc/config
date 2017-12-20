@@ -586,6 +586,7 @@ Theme = green_theme
 # Set it to 'no' if you don't have any configuration file.
 # Otherwise set it to the name of a specific file.
 #TiMidity_Config =
+TiMidity_Config = /etc/timidity.cfg
 
 # Self-describing SidPlay2 audio characteristic options.
 #SidPlay2_DefaultSongLength = 180   # If not in database (in seconds)
