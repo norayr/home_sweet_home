@@ -1,3 +1,3 @@
-#tar -cf - env/novation | ssh am04admin "cd /tmp; tar -xf -"
+#tar -cf - env/novation | ssh arnet.am "cd /tmp; tar -xf -"
 set -x
-tar -cf - $1 | ssh am04admin "cd $2; tar -xf -"
+tar -cf - $1 | ssh $2 "cd $3; tar -xf -"
