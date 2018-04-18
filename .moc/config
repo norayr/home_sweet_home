@@ -192,7 +192,8 @@
 # Example:    Theme = laras_theme
 #
 #Theme =
-Theme = green_theme
+#Theme = green_theme
+Theme = nightly_theme
 # The theme used when running on an xterm.
 #
 # Example:    XTermTheme = transparent-background
