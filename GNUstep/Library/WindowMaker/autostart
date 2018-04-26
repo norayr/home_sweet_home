@@ -18,3 +18,4 @@ sh /home/noch/scripts/switch.sh
 xset m 20/10 4
 wmsetbg /home/noch/gf.jpg
 xsetroot -cursor_name right_ptr
+xrdb ~/.Xresources
