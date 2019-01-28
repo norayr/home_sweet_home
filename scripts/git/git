@@ -1,0 +1,3 @@
+#revert three commits without erasing history
+
+git revert --no-commit HEAD~3..
