@@ -1,0 +1,177 @@
+#!/usr/bin/env python
+'''
+Licensed under GPLv3
+
+Written by adis@blad.is
+'''
+try:
+    from configparser import ConfigParser
+except ImportError:
+    from ConfigParser import ConfigParser
+import concurrent.futures
+import subprocess
+import argparse
+import os.path
+import shutil
+import sys
+import os
+
+
+DEFAULT_QUALITY = {
+    'ogg': 9,
+    'mp3': 2,
+    'm4a': 2.5
+}
+
+
+argparser = argparse.ArgumentParser(description='Transcode directory trees')
+argparser.add_argument('input',
+                       action='store',
+                       type=str,
+                       help='<old directory>')
+argparser.add_argument('output',
+                       action='store',
+                       nargs='?',
+                       type=str,
+                       default='.',
+                       help='<new directory>')
+argparser.add_argument('-x',
+                       action='store_true',
+                       help='Overwrite non-empty output files')
+argparser.add_argument('-t',
+                       action='store',
+                       type=int,
+                       default=os.cpu_count(),
+                       help='Transcoding processes')
+argparser.add_argument('-q',
+                       action='store',
+                       type=int,
+                       help='FFmpeg output quality')
+argparser.add_argument('-np',
+                       action='store_true',
+                       help='Don\'t print progress')
+argparser.add_argument('-o',
+                       action='store',
+                       type=str,
+                       default='ogg',
+                       help='Output format')
+argparser.add_argument('-i',
+                       action='append',
+                       type=str,
+                       default=[
+                           'wav',
+                           'aiff',
+                           'flac',
+                           'pcm',
+                           'raw'
+                       ],
+                       help='Extra input format')
+
+
+configparser = ConfigParser()
+
+
+class Commands:
+
+    @staticmethod
+    def mkdir(dirname):
+        try:
+            os.mkdir(dirname)
+        except OSError:
+            if not os.path.isdir(dirname):
+                sys.stderr.write('Could not create {0}\n'.format(dirname))
+                exit(1)
+
+    @staticmethod
+    def copy(src, dst):
+        shutil.copy(src, dst)
+
+    @staticmethod
+    def transcode(src, dst, quality):
+        args = [
+            'ffmpeg',
+            '-i', src,
+            '-vn',  # No video
+            '-y',  # Overwrite
+            '-map_metadata:s:a', '0:s:0',  # Copy metadata
+        ]
+        if quality:
+            args.extend(['-q:a', str(quality)])
+        args.append(dst)
+
+        p = subprocess.Popen(
+            args,
+            stderr=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stdin=subprocess.PIPE)
+        if p.wait() != 0:
+            sys.stderr.write('ERROR: {0}\n\n'.format(p.communicate()[1]))
+
+
+if __name__ == '__main__':
+
+    args = argparser.parse_args()
+    input_dir = os.path.normpath(args.input)
+    _, output_name = os.path.split(input_dir)
+    output_base = os.path.join(args.output, output_name)
+    quality = args.q or DEFAULT_QUALITY.get(args.o)
+
+    futures = []
+
+    def do_write(fname):
+        '''
+        Do not overwrite existing files over 0 bytes
+        '''
+        return args.x or not (
+            os.path.isfile(fname) and os.stat(fname).st_size > 0)
+
+    Commands.mkdir(output_base)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.t) as e:
+        for root, dirs, files in os.walk(args.input):
+
+            def format_output(filename):
+                return os.path.join(
+                    root.replace(input_dir, output_base, 1),
+                    filename)
+
+            for dirname in dirs:
+                Commands.mkdir(format_output(dirname))
+
+            for filename in files:
+                input_file = os.path.join(root, filename)
+                froot, fext = os.path.splitext(filename)
+                fext = fext.replace('.', '', 1)
+
+                if fext.lower() in args.i:
+                    transcode = True
+                    fext = args.o
+                else:
+                    transcode = False
+
+                output_file = format_output(
+                    '.'.join((froot, fext))
+                    if fext
+                    else froot)
+
+                if not do_write(output_file):
+                    continue
+
+                if transcode:
+                    futures.append(e.submit(
+                        Commands.transcode,
+                        input_file,
+                        output_file,
+                        quality))
+                else:
+                    futures.append(
+                        e.submit(Commands.copy, input_file, output_file))
+
+        def print_progress(idx):
+            sys.stdout.write('\r{}/{}'.format(idx, len(futures)))
+
+        if not args.np:
+            print_progress(0)
+            for idx, _ in enumerate(
+                    concurrent.futures.as_completed(futures), start=1):
+                print_progress(idx)
+            print('')
