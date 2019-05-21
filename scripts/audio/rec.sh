@@ -1,1 +1,1 @@
-sox -t alsa default /tmp/m.ogg
+sox -t alsa default $1
