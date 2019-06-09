@@ -1,0 +1,7 @@
+gtk-can-change-accels = 1
+style "user-font"
+{
+        font_name="Arian Grqi 14"
+}
+widget_class "*" style "user-font"
+gtk-font-name = "Arian Grqi 14"

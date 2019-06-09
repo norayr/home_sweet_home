@@ -1,1 +1,1 @@
-GTK2_RC_FILES=~/gtkrc_grqi $1
+export GTK2_RC_FILES=~/gtkrc_grqi-2 $1

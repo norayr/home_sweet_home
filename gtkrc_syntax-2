@@ -1,0 +1,8 @@
+gtk-can-change-accels = 1
+
+style "user-font"
+{
+        font_name="Syntax LT Std 12"
+}
+widget_class "*" style "user-font"
+gtk-font-name = "Syntax LT Std 12"
