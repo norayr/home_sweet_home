@@ -44,6 +44,8 @@ do
     #
     #sudo route add -host 212.34.243.186 gw $gw dev wlan0
     #sudo route add -host 212.34.243.186 gw $gw dev wlan0
+
+	fusermount -uz /amp
 	sshfs root@arnet.am:/amp /amp
   fi
 sleep 60
