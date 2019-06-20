@@ -47,6 +47,7 @@ do
 
 	fusermount -uz /amp
 	sshfs root@arnet.am:/amp /amp
+	bash uploads.sh
   fi
 sleep 60
 done
