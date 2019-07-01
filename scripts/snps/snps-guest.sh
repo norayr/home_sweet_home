@@ -2,7 +2,7 @@ set -x
 sudo /sbin/ifconfig wlan0 down
 while true
 do
-  test=`iwconfig wlan0 | grep synopsys`
+  test=`/sbin/iwconfig wlan0 | grep synopsys`
 
   if [ -z "$test" ]
   then
