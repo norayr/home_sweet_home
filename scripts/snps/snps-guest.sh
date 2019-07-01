@@ -22,7 +22,7 @@ do
 	gw=`echo $gw | awk {' print $1 '}`
     sudo route del -net 0.0.0.0 dev wlan0
     #sudo route add -host 212.34.243.186 gw $gw dev wlan0
-    sudo route add -host 37.252.84.152  gw $gw dev wlan0
+    sudo route add -host 81.16.1.26  gw $gw dev wlan0
 
     #irc.freenode.net
     sudo route add -host 162.213.39.42   gw $gw dev wlan0
