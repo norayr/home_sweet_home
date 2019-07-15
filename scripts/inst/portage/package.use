@@ -1,0 +1,58 @@
+#fpc
+dev-lang/fpc source
+#xscreensave
+x11-misc/xscreensaver opengl
+#video driver
+x11-drivers/xf86-video-intel dri dri3 sna tools uxa xvmc
+#wmaker
+sys-devel/gcc objc
+#imagemagick and instax printer
+media-gfx/imagemagick lcms
+#seamonkey
+www-client/seamonkey -chatzilla
+#dj
+dev-python/PyQt5 -bluetooth svg gui widgets
+sys-boot/boot-update python_single_target_python3_6
+app-admin/ego python_single_target_python3_6
+media-gfx/ufraw contrast fits gimp gtk
+net-p2p/transmission gtk
+net-im/pidgin gtk
+net-misc/aria2 bittorrent
+media-sound/fluidsynth examples
+media-sound/mixxx  aac ffmpeg mp3 wavpack mp4
+app-misc/mc unicode -slang
+app-admin/ego python3_4
+app-emulation/qemu gtk
+app-text/asciidoc python_single_target_python2_7
+media-libs/openjpeg -static-libs
+media-gfx/gmic gimp
+#wmbattery
+sys-auth/consolekit policykit
+
+
+
+media-libs/tiff -webp
+# required by media-gfx/graphviz-2.40.1-r1::media-kit
+# required by dev-lang/vala-0.40.11::gnome-kit
+# required by gnome-base/dconf-0.30.1::gnome-kit
+# required by dev-libs/glib-2.58.3::gnome-kit[dbus]
+# required by media-libs/harfbuzz-2.1.1::media-kit[glib]
+# required by x11-libs/pango-1.42.4::gnome-kit
+# required by gnome-base/librsvg-2.45.0::gnome-kit
+>=media-libs/gd-2.2.5-r1 fontconfig
+# required by x11-terms/terminology-1.2.1-r1::desktop-kit
+# required by terminology (argument)
+>=dev-libs/efl-1.21.1 egl
+# required by net-print/cups-filters-1.21.3::net-kit[postscript]
+# required by net-print/cups-2.2.9::net-kit
+# required by cups (argument)
+>=app-text/ghostscript-gpl-9.25-r1 cups
+# required by media-gfx/darktable-2.4.4::media-kit
+# required by darktable (argument)
+>=media-gfx/exiv2-0.26_p20180811-r3 xmp
+# required by app-office/libreoffice-6.1.3.2::desktop-kit
+# required by libreoffice (argument)
+>=dev-libs/xmlsec-1.2.26 nss
+# required by media-video/flowblade-1.16-r1::media-kit
+# required by flowblade (argument)
+>=media-libs/mlt-6.12.0.20190319 python gtk sdl1

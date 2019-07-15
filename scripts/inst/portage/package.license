@@ -1,0 +1,4 @@
+# required by virtualbox-bin (argument)
+>=app-emulation/virtualbox-bin-5.2.24.128163 PUEL
+# required by opera (argument)
+>=www-client/opera-56.0.3051.52 OPERA-2014
