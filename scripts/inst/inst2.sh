@@ -58,7 +58,7 @@ MCONF="/etc/portage/make.conf"
 #cp portage/package.use /etc/portage/
 sed -i 's/keymap="us"/keymap="dvorak"/' /etc/conf.d/keymaps
 echo 'modules="cpufreq_userspace acpi_cpufreq snd_mixer_oss"' >> /etc/conf.d/modules
-emerge wireless-tools wpa_supplicant windowmaker xorg-x11 xterm linux-firmware arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim screen fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor intel-microcode  exfat-utils fuse-exfat terminology firefox seamonkey pidgin thunderbird 
+emerge app-misc/screen app-misc/mc wireless-tools wpa_supplicant windowmaker xorg-x11 xterm linux-firmware arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor intel-microcode  exfat-utils fuse-exfat terminology firefox seamonkey pidgin thunderbird 
 #else
 #  echo "no network"
 #fi
