@@ -59,6 +59,8 @@ MCONF="/etc/portage/make.conf"
 sed -i 's/keymap="us"/keymap="dvorak"/' /etc/conf.d/keymaps
 echo 'modules="cpufreq_userspace acpi_cpufreq snd_mixer_oss"' >> /etc/conf.d/modules
 emerge app-misc/screen app-misc/mc wireless-tools wpa_supplicant iucode-tool intel-microcode grub windowmaker xorg-x11 xterm linux-firmware arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor exfat-utils fuse-exfat terminology firefox seamonkey pidgin thunderbird 
+grub-install --target=i386-pc --no-floppy /dev/sda
+ego boot update
 #else
 #  echo "no network"
 #fi
