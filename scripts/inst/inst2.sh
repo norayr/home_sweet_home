@@ -58,11 +58,11 @@ MCONF="/etc/portage/make.conf"
 #cp portage/package.use /etc/portage/
 sed -i 's/keymap="us"/keymap="dvorak"/' /etc/conf.d/keymaps
 echo 'modules="cpufreq_userspace acpi_cpufreq snd_mixer_oss"' >> /etc/conf.d/modules
-emerge iucode_tool intel-microcode grub app-misc/screen app-misc/mc wireless-tools wpa_supplicant
+emerge iucode_tool intel-microcode grub linux-firmware app-misc/screen app-misc/mc wireless-tools wpa_supplicant
 grub-install --target=i386-pc --no-floppy /dev/sda
 ego boot update
 
-emerge windowmaker xorg-x11 xterm linux-firmware arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor exfat-utils fuse-exfat terminology firefox seamonkey pidgin thunderbird 
+emerge windowmaker xorg-x11 xterm arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor exfat-utils fuse-exfat terminology firefox seamonkey pidgin thunderbird 
 grub-install --target=i386-pc --no-floppy /dev/sda
 ego boot update
 #else
