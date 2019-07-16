@@ -62,7 +62,7 @@ emerge iucode_tool intel-microcode grub linux-firmware app-misc/screen app-misc/
 grub-install --target=i386-pc --no-floppy /dev/sda
 ego boot update
 
-emerge windowmaker xorg-x11 xterm arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor exfat-utils fuse-exfat terminology firefox seamonkey pidgin thunderbird 
+emerge windowmaker xorg-x11 xterm arandr xscreensaver bubblemon wmbattery wmclock wmix wmmemload wmmon+smp wmwifi sshfs encfs sudo pwgen syslog-ng vim pidgin fpc lazarus ddd tkdiff gimp darktable geeqie imagemagick qrencode dino mplayer tcptraceroute traceroute bind-tools openntpd telnet-bsd tigervnc whois youtube-dl tor exfat-utils fuse-exfat terminology firefox seamonkey thunderbird 
 grub-install --target=i386-pc --no-floppy /dev/sda
 ego boot update
 #else
