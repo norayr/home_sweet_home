@@ -25,29 +25,21 @@ do
 	gw=`echo $gw | awk {' print $1 '}`
     sudo route del -net 0.0.0.0 dev wlan0
     #sudo route add -host 212.34.243.186 gw $gw dev wlan0
-    sudo route add -host 81.16.1.26  gw $gw dev wlan0
-
-    #irc.freenode.net
-    sudo route add -host 162.213.39.42   gw $gw dev wlan0
-    sudo route add -host 185.30.166.38   gw $gw dev wlan0
-    sudo route add -host 185.30.166.37   gw $gw dev wlan0
-    sudo route add -host 94.125.182.252  gw $gw dev wlan0
-    sudo route add -host 204.225.96.251  gw $gw dev wlan0
-    sudo route add -host 149.56.134.238  gw $gw dev wlan0
-    sudo route add -host 195.154.200.232 gw $gw dev wlan0
-
-    #photo.net
-    sudo route add -host 54.236.123.137 gw $gw dev wlan0
-
-    #jabber.org
-    sudo route add -host 208.68.163.218 gw $gw dev wlan0
-
-    #xmpp.jp
-    sudo route add -host 160.16.217.191 gw $gw dev wlan0
-    #
-    #sudo route add -host 212.34.243.186 gw $gw dev wlan0
-    #sudo route add -host 212.34.243.186 gw $gw dev wlan0
-
+	
+	arnet="81.16.1.26"
+	freenode="162.213.39.42 185.30.166.38 185.30.166.37 94.125.182.252 204.225.96.251 149.56.134.238 195.154.200.232"
+    photonet="54.236.123.137"
+	jabberorg="208.68.163.218"
+    xmppjp="160.16.217.191"
+	funtoo="192.150.253.217"
+	github="140.82.114.3 140.82.113.4"
+	hosts="$arnet $freenode $photonet $jabberorg $xmppjp $funtoo $github"
+	for hst in $hosts
+	do
+      sudo route del -host $hst dev wlan0
+	  sleep 3
+      sudo route add -host $hst gw $gw dev wlan0
+    done
 	fusermount -uz /amp
 	sshfs root@arnet.am:/amp /amp
 	bash uploads.sh
