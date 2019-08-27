@@ -1,8 +1,8 @@
 set -x
-sudo /sbin/ifconfig wlan0 down
+sudo /bin/ifconfig wlan0 down
 sleep 3
 sudo iwconfig wlan0
-sudo /sbin/ifconfig wlan0 up
+sudo /bin/ifconfig wlan0 up
 while true
 do
   test=`/sbin/iwconfig wlan0 | grep synopsys`
