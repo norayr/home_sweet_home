@@ -9,14 +9,14 @@ do
 
   if [ -z "$test" ]
   then
-    sudo /sbin/ifconfig wlan0 up
+    sudo /bin/ifconfig wlan0 up
     sudo /sbin/iwlist wlan0 scan | grep SSID
     sudo /sbin/iwconfig wlan0 essid "synopsys-guest"
     sudo dhcpcd wlan0
     connected=""
 	while [ -z "$connected" ]
 	do
-	   connected=`/sbin/ifconfig wlan0 | grep -w inet`
+	   connected=`/bin/ifconfig wlan0 | grep -w inet`
 	   sleep 5
 	done
 	
