@@ -5,13 +5,16 @@ sudo iwconfig wlan0
 sudo /bin/ifconfig wlan0 up
 while true
 do
-  test=`/sbin/iwconfig wlan0 | grep synopsys`
+  test=`/sbin/iwconfig wlan0 | grep inky`
 
   if [ -z "$test" ]
   then
     sudo /bin/ifconfig wlan0 up
     sudo /sbin/iwlist wlan0 scan | grep SSID
-    sudo /sbin/iwconfig wlan0 essid "synopsys-guest"
+    #sudo /sbin/iwconfig wlan0 essid "synopsys-guest"
+	sudo killall wpa_supplicant
+	sleep 3
+	sudo /usr/sbin/wpa_supplicant -iwlan0 -c inky.conf &
     sudo dhcpcd wlan0
     connected=""
 	while [ -z "$connected" ]
