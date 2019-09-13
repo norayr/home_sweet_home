@@ -12,7 +12,9 @@ do
     sudo /bin/ifconfig wlan0 up
     sudo /sbin/iwlist wlan0 scan | grep SSID
     #sudo /sbin/iwconfig wlan0 essid "synopsys-guest"
-	sudo killall wpa_supplicant
+	#sudo killall wpa_supplicant
+	WPID=`ps aux | grep "wlan0 -c inky.conf" | awk {' print $2 '}`
+	sudo kill $WPID
 	sleep 3
 	sudo /usr/sbin/wpa_supplicant -iwlan0 -c inky.conf &
     sudo dhcpcd wlan0
@@ -45,7 +47,7 @@ do
     done
 	fusermount -uz /amp
 	sshfs root@arnet.am:/amp /amp
-	bash uploads.sh
+#	bash uploads.sh
   fi
 sleep 60
 done
