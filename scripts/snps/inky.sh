@@ -26,8 +26,9 @@ do
 	done
 	
 	fusermount -uz /amp
-	gw=`route -n | grep UG | grep wlan0 | awk {' print $2 '}`
-	gw=`echo $gw | awk {' print $1 '}`
+	gw=`route -n | grep UG | grep wlan0 | awk {' print $2 '}  | head -n1 | awk '{print $1;}'`
+	#gw=`echo $gw | awk {' print $1 '} |  head -n1 | awk '{print $1;}'`
+	echo "found gw $gw"
     sudo route del -net 0.0.0.0 dev wlan0
     #sudo route add -host 212.34.243.186 gw $gw dev wlan0
 	
