@@ -27,4 +27,6 @@ export DIARY_DIR=/home/noch/diary
 export EDITOR=vim
 #export MC_SKIN=MC_SKIN=modarcon16-defbg
 alias mc="mc -S modarcon16-defbg"
+alias cssh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
 alias alb="album -medium=1000x -theme simple2"
+alias ydl="youtube-dl -x --audio-format=mp3 --audio-quality=0"

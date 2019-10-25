@@ -5,13 +5,18 @@ sudo iwconfig wlan0
 sudo /bin/ifconfig wlan0 up
 while true
 do
-  test=`/sbin/iwconfig wlan0 | grep synopsys`
+  test=`/sbin/iwconfig wlan0 | grep inky`
 
   if [ -z "$test" ]
   then
     sudo /bin/ifconfig wlan0 up
     sudo /sbin/iwlist wlan0 scan | grep SSID
-    sudo /sbin/iwconfig wlan0 essid "synopsys-guest"
+    #sudo /sbin/iwconfig wlan0 essid "synopsys-guest"
+	#sudo killall wpa_supplicant
+	WPID=`ps aux | grep "wlan0 -c inky.conf" | awk {' print $2 '}`
+	sudo kill $WPID
+	sleep 3
+	sudo /usr/sbin/wpa_supplicant -iwlan0 -c inky.conf &
     sudo dhcpcd wlan0
     connected=""
 	while [ -z "$connected" ]
@@ -21,8 +26,9 @@ do
 	done
 	
 	fusermount -uz /amp
-	gw=`route -n | grep UG | grep wlan0 | awk {' print $2 '}`
-	gw=`echo $gw | awk {' print $1 '}`
+	gw=`route -n | grep UG | grep wlan0 | awk {' print $2 '}  | head -n1 | awk '{print $1;}'`
+	#gw=`echo $gw | awk {' print $1 '} |  head -n1 | awk '{print $1;}'`
+	echo "found gw $gw"
     sudo route del -net 0.0.0.0 dev wlan0
     #sudo route add -host 212.34.243.186 gw $gw dev wlan0
 	
@@ -32,7 +38,7 @@ do
 	jabberorg="208.68.163.218"
     xmppjp="160.16.217.191"
 	funtoo="192.150.253.217"
-	github="192.30.253.112 192.30.253.113 140.82.113.3 140.82.113.4 140.82.114.3 140.82.114.4"
+	github="192.30.253.112 192.30.253.113 140.82.113.3 140.82.113.4 140.82.114.3 140.82.114.4  140.82.118.4  140.82.118.3"
 	hosts="$arnet $freenode $photonet $jabberorg $xmppjp $funtoo $github"
 	for hst in $hosts
 	do
@@ -42,7 +48,7 @@ do
     done
 	fusermount -uz /amp
 	sshfs root@arnet.am:/amp /amp
-	bash uploads.sh
+#	bash uploads.sh
   fi
 sleep 60
 done
