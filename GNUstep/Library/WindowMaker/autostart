@@ -22,4 +22,5 @@ xrdb ~/.Xresources
 xset s off
 xset s noblank
 xset -dpms
-
+#fix for function key
+sudo su  - root -c "/bin/echo 2 > /sys/module/hid_apple/parameters/fnmode"
