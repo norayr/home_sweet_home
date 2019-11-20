@@ -68,3 +68,9 @@ ego boot update
 #else
 #  echo "no network"
 #fi
+
+
+#modules
+echo 'kernel.modules_disabled=1' >> /etc/sysctl.d/99-custom.conf
+echo 'blacklist uvcvideo' >> /etc/modprobe.d/blacklist.conf
+
