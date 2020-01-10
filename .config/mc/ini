@@ -31,7 +31,7 @@ only_leading_plus_minus=true
 show_output_starts_shell=false
 xtree_mode=false
 file_op_compute_totals=true
-classic_progressbar=true
+classic_progressbar=false
 use_netrc=true
 ftpfs_always_use_proxy=false
 ftpfs_use_passive_connections=true
@@ -82,10 +82,8 @@ editor_backup_extension=~
 editor_filesize_threshold=64M
 editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
-#skin=default
-skin=ajnasz-blue
 
-filepos_max_saved_entries=1024
+skin=default
 
 [Layout]
 message_visible=1
@@ -113,8 +111,12 @@ spell_language=en
 clipboard_store=
 clipboard_paste=
 
-#[Colors]
-#base_color=lightgray,green:normal=green,default:selected=white,gray:marked=yellow,default:markselect=yellow,gray:directory=blue,default:executable=brightgreen,default:link=cyan,default:device=brightmagenta,default:special=lightgray,default:errors=red,default:reverse=green,default:gauge=green,default:input=white,gray:dnormal=green,gray:dfocus=brightgreen,gray:dhotnormal=cyan,gray:dhotfocus=brightcyan,gray:menu=green,default:menuhot=cyan,default:menusel=green,gray:menuhotsel=cyan,default:helpnormal=cyan,default:editnormal=green,default:editbold=blue,default:editmarked=gray,blue:stalelink=red,default
+[Colors]
+base_color=
+xterm=
+color_terminals=
+
+linux=
 
 [Panels]
 show_mini_info=true
@@ -136,11 +138,6 @@ permission_mode=false
 torben_fj_mode=false
 quick_search_mode=2
 select_flags=6
-
-[Colors]
-base_color=
-xterm=
-color_terminals=
 
 [Panelize]
 Find *.orig after patching=find . -name \\*.orig -print
