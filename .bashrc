@@ -39,4 +39,5 @@ alias alb="album -medium=1000x -theme simple2"
 alias ydl="youtube-dl -x --audio-format=mp3 --audio-quality=0"
 export BEOPLAY="00:12:6F:15:06:DD"
 alias bmplayer='mplayer -ao alsa:device=bluealsa'
-
+alias bchrom='google-chrome-stable --alsa-output-device=bluealsa'
+alias bcrom='chromium --alsa-output-device=bluealsa'
