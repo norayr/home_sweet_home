@@ -1,0 +1,6 @@
+# Bluetooth headset
+defaults.bluealsa {
+     interface "hci0"            # host Bluetooth adapter
+     device "00:12:6F:15:06:DD"  # Bluetooth headset MAC address
+     profile "a2dp"
+}

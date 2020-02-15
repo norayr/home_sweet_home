@@ -1,0 +1,9 @@
+#/etc/init.d/bluetooth start
+#/etc/init.d/bluealsa start
+
+#bluetooth
+#connect 00:12:6F:15:06:DD
+
+#alsamixer -D bluealsa
+
+#mplayer -ao alsa:device=bluealsa
