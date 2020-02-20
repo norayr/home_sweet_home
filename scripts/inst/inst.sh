@@ -13,6 +13,7 @@ wget -c $STAGE
 #mount -t proc none proc
 #mount --rbind /sys sys
 #mount --rbind /dev dev
+mount -t devpts devpts dev/pts
 #cp /etc/resolv.conf $CHROOT/etc/
 #cp fstab $CHROOT/etc/
 #cp portage/make.conf /etc/portage/
