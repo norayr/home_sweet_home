@@ -14,7 +14,7 @@
 #
 # This file must be executable.
 #
-sh /home/noch/scripts/switch.sh
+sh ~/switch.sh
 xset m 20/10 4
 wmsetbg /home/noch/gf.jpg
 xsetroot -cursor_name right_ptr
