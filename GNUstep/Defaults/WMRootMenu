@@ -159,5 +159,6 @@
   ("Info Panel", INFO_PANEL),
   ("Restart Window Maker", RESTART),
   ("Lock Screen", EXEC, "xlock -allowroot -usefirst -mode matrix"),
+  ("Lock xscreenaver", EXEC, "xscreensaver-command -lock"),
   ("Exit Window Maker", EXIT)
 )
