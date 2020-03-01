@@ -2,7 +2,7 @@ state.rockchipes8316c {
 	control.1 {
 		iface CARD
 		name 'Headphones Jack'
-		value true
+		value false
 		comment {
 			access read
 			type BOOLEAN
@@ -12,8 +12,8 @@ state.rockchipes8316c {
 	control.2 {
 		iface MIXER
 		name 'Headphone Playback Volume'
-		value.0 0
-		value.1 0
+		value.0 2
+		value.1 2
 		comment {
 			access 'read write'
 			type INTEGER
@@ -21,8 +21,8 @@ state.rockchipes8316c {
 			range '0 - 3'
 			dbmin -4800
 			dbmax 0
-			dbvalue.0 -4800
-			dbvalue.1 -4800
+			dbvalue.0 -1200
+			dbvalue.1 -1200
 		}
 	}
 	control.3 {
@@ -320,16 +320,6 @@ state.rockchipes8316c {
 	}
 	control.28 {
 		iface MIXER
-		name 'Speaker Switch'
-		value true
-		comment {
-			access 'read write'
-			type BOOLEAN
-			count 1
-		}
-	}
-	control.29 {
-		iface MIXER
 		name 'Differential Mux'
 		value lin1-rin1
 		comment {
@@ -342,7 +332,7 @@ state.rockchipes8316c {
 			item.3 'lin2-rin2 with 20db Boost'
 		}
 	}
-	control.30 {
+	control.29 {
 		iface MIXER
 		name 'Digital Mic Mux'
 		value 'dmic disable'
@@ -355,7 +345,7 @@ state.rockchipes8316c {
 			item.2 'dmic data at low level'
 		}
 	}
-	control.31 {
+	control.30 {
 		iface MIXER
 		name 'DAC Source Mux'
 		value 'LDATA TO LDAC, RDATA TO RDAC'
@@ -369,7 +359,7 @@ state.rockchipes8316c {
 			item.3 'RDATA TO LDAC, LDATA TO RDAC'
 		}
 	}
-	control.32 {
+	control.31 {
 		iface MIXER
 		name 'Left Headphone Mux'
 		value lin1-rin1
@@ -383,7 +373,7 @@ state.rockchipes8316c {
 			item.3 'lin-rin with Boost and PGA'
 		}
 	}
-	control.33 {
+	control.32 {
 		iface MIXER
 		name 'Right Headphone Mux'
 		value lin1-rin1
@@ -397,7 +387,7 @@ state.rockchipes8316c {
 			item.3 'lin-rin with Boost and PGA'
 		}
 	}
-	control.34 {
+	control.33 {
 		iface MIXER
 		name 'Left Headphone Mixer LLIN Switch'
 		value false
@@ -407,7 +397,7 @@ state.rockchipes8316c {
 			count 1
 		}
 	}
-	control.35 {
+	control.34 {
 		iface MIXER
 		name 'Left Headphone Mixer Left DAC Switch'
 		value true
@@ -417,7 +407,7 @@ state.rockchipes8316c {
 			count 1
 		}
 	}
-	control.36 {
+	control.35 {
 		iface MIXER
 		name 'Right Headphone Mixer RLIN Switch'
 		value false
@@ -427,7 +417,7 @@ state.rockchipes8316c {
 			count 1
 		}
 	}
-	control.37 {
+	control.36 {
 		iface MIXER
 		name 'Right Headphone Mixer Right DAC Switch'
 		value true
