@@ -42,3 +42,4 @@ export BEOPLAY="00:12:6F:15:06:DD"
 alias bmplayer='mplayer -ao alsa:device=bluealsa'
 alias bchrom='google-chrome-stable --alsa-output-device=bluealsa'
 alias bchromi='chromium --alsa-output-device=bluealsa'
+alias r="sudo"
