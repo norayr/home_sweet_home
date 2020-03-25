@@ -43,3 +43,4 @@ alias bmplayer='mplayer -ao alsa:device=bluealsa'
 alias bchrom='google-chrome-stable --alsa-output-device=bluealsa'
 alias bchromi='chromium --alsa-output-device=bluealsa'
 alias r="sudo"
+export BROWSER=/usr/bin/seamonkey
