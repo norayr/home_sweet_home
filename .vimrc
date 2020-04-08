@@ -4,3 +4,4 @@ au BufNewFile,BufRead *.m2,*.DEF,*.Mod,*.mod,*.MOD,*.md,*.mi setf modula2
 :set sw=2
 :set tabstop=2
 :set expandtab
+set mouse-=a
