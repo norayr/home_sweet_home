@@ -14,4 +14,9 @@
 #now you can play it:
 #mplayer -tv device=/dev/video4 tv://
 #stream with
+#https://stackoverflow.com/questions/47375345/youtube-live-not-working-with-ffmpeg
 #ffmpeg -f alsa -ac 2 -i hw:0,0 -f v4l2 -s 1280x720 -r 30 -i /dev/video4 -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strict experimental -r 30 -g 20 -b:v 2500k -codec:a libmp3lame -ar 44100 -b:a 11025 -bufsize 512k -f flv rtmp://a.rtmp.youtube.com/live2/3yqq-9dvb-22h6-2xdk
+#https://gist.github.com/laurenarcher/4644aacef51e734d33d5
+#ffmpeg -f alsa -ac 2 -i hw:1,0 -f v4l2 -s 1280x720 -r 10 -i /dev/video1 -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -r 25 -g 20 -b:v 2500k -codec:a libmp3lame -ar 44100 -threads 6 -b:a 11025 -bufsize 512k -f flv rtmp://a.rtmp.youtube.com/live2/YOURSTREAMNAMEHERE
+#see also
+#http://trac.ffmpeg.org/wiki/EncodingForStreamingSites
