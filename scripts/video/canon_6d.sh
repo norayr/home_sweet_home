@@ -1,3 +1,6 @@
+#hints from
+#https://medium.com/nerdery/dslr-webcam-setup-for-linux-9b6d1b79ae22
+#https://trac.ffmpeg.org/wiki/Capture/Webcam
 #https://github.com/umlaeute/v4l2loopback
 #modprobe v4l2loopback exclusive_caps=1 max_buffers=2
 #create v4l device
