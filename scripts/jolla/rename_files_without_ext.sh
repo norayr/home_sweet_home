@@ -11,4 +11,8 @@ do
    then
      mv $i $i.gif
    fi
+   if [ "$tp" = "PNG" ]
+   then
+     mv $i $i.png
+   fi
 done
