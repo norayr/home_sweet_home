@@ -1,0 +1,8 @@
+pcm.!default {
+   type plug
+   slave.pcm {
+         type bluealsa
+         device "00:12:6F:15:06:DD"
+         profile "a2dp"
+         }
+}
