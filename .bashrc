@@ -46,4 +46,5 @@ alias r="sudo"
 export BROWSER=/usr/bin/seamonkey
 #PS1='[\D{%F %T} \u@\h \W]\$ '
 #PS1='[\D{%F %T}] \$ '
-PS1='\[\033[01;34m\][\D{%F %T}] \$ '
+#PS1='\[\033[01;34m\][\D{%F %T}] \$ '
+PS1='\[\033[01;34m\][\D{%F %T}] \$ \[\033[00;37m\]'
