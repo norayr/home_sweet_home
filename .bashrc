@@ -18,8 +18,8 @@ fi
 # Put your fun stuff here.
 alias arnet="ssh root@arnet.am"
 alias arnetik="ssh root@192.168.1.2"
-#alias amp="sshfs root@arnet.am:/amp /amp"
-alias amp="sshfs root@arnet.am:/amp /amp"
+#alias amp="sshfs noch@arnet.am:/amp /amp"
+alias amp="sshfs noch@arnet.am:/amp /amp"
 alias ampik="sshfs root@192.168.1.2:/amp /amp"
 alias ampir="sshfs noch@37.252.65.107:/disk0/ /ampir"
 alias shekspir="ssh noch@37.252.65.107"
@@ -47,4 +47,6 @@ export BROWSER=/usr/bin/seamonkey
 #PS1='[\D{%F %T} \u@\h \W]\$ '
 #PS1='[\D{%F %T}] \$ '
 #PS1='\[\033[01;34m\][\D{%F %T}] \$ '
-PS1='\[\033[01;34m\][\D{%F %T}] \$ \[\033[00;37m\]'
+#PS1='\[\033[01;34m\][\D{%F %T}] \$ \[\033[00;37m\]'
+#PS1='\[\033[01;32m\][\D{%F} \[\033[01;34m\] \D{%T} ] \$ \[\033[00;37m\]'
+PS1='\033[01;32m\]\D{%F}\[\033[01;34m\] \D{%T} \$ \[\033[00;37m\]'
