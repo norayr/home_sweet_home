@@ -1,5 +1,6 @@
-sudo su  - root -c "/bin/echo 2 > /sys/module/hid_apple/parameters/fnmode"
-setxkbmap "us(dvp), am" -option "grp:alt_shift_toggle,grp_led:scroll"
-
-
-
+if [ "$1" == "ru" ]
+then
+setxkbmap "us(dvp), am, ru(phonetic)" -option "grp:alt_shift_toggle"
+else
+setxkbmap "us(dvp), am" -option "grp:alt_shift_toggle"
+fi
