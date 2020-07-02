@@ -24,6 +24,7 @@ alias ampik="sshfs root@192.168.1.2:/amp /amp"
 alias ampir="sshfs noch@37.252.65.107:/disk0/ /ampir"
 alias shekspir="ssh noch@37.252.65.107"
 alias ff="cpulimit -l 20 -k firefox"
+alias drop_all="sync; echo 3 > /proc/sys/vm/drop_caches"
 #export PATH=$HOME/bin:$PATH:/local/bin:/opt/android-ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin
 export LANG="hy_AM.UTF-8"
 export LC_ALL="hy_AM.UTF-8"
