@@ -1,3 +1,7 @@
+#debian 9 linux 4.4.202
+#PERCENT=$(cat /sys/class/power_supply/rk-bat/capacity)
+#STATUS=$(cat /sys/class/power_supply/rk-bat/status)
+#gentoo
 PERCENT=$(cat /sys/class/power_supply/cw2015-battery/capacity)
 STATUS=$(cat /sys/class/power_supply/cw2015-battery/status)
 
