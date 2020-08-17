@@ -46,6 +46,10 @@ alias bchrom='google-chrome-stable --alsa-output-device=bluealsa'
 alias bchromi='chromium --alsa-output-device=bluealsa'
 alias drop_all="sudo sync; sudo bash echo 3 > /proc/sys/vm/drop_caches"
 alias r="sudo"
+#gentoo
+alias eworld="emerge -avuND @world"
+alias eclean="emerge --depclean -a"
+alias ecleanmoar="eclean-dist --deep"
 export BROWSER=/usr/bin/seamonkey
 #PS1='[\D{%F %T} \u@\h \W]\$ '
 #PS1='[\D{%F %T}] \$ '
