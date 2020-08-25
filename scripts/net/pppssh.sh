@@ -35,7 +35,7 @@ CLIENT_IFIPADDR=10.0.0.10
 # running as root.  This way, you don't have to punch custom holes
 # through your firewall.
 #LOCAL_SSH_OPTS="-P"
-LOCAL_SSH_OPTS="-p 21"
+LOCAL_SSH_OPTS="-p 21 -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3"
 
 
 #
