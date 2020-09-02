@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#set -x
 stats=””
 echo "%   user"
 echo "============"
