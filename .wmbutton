@@ -27,9 +27,9 @@
 15	xterm -geometry 120x20 -fg white -bg grey20 -T 'Gnuplot' -e gnuplot &
 25	quattropro &
 
-6	xemacs &
-16	xterm -geometry 80x35 -fg black -bg grey50 -T 'Pico Editor' -e pico -w &
-26	xterm -geometry 120x35 -fg black -bg grey70 -T 'WMButton Config Editor' -e pico -w ~/.wmbutton &
+6 uxterm -sb -fa 'Mono' -fs 10 -e alsamixer &
+16  xterm -geometry 120x35 -fg black -bg grey70 -T 'WMButton Config Editor' -e vim -w ~/.wmbutton &
+26  uxterm -sb -fa 'Mono' -fs 10 -e 'alsamixer -D bluealsa' &
 
 7	gimp &
 17	xfig &
@@ -39,9 +39,10 @@
 18	ggv &
 28	xpdf &
 
-9	xmms &
+9	xbacklight -inc 5 &
 19	xanim &
-29	gnome-sound-recorder &
+29	xbacklight -dec 5 &
 
 # The above don't need to be in any particular order.
 # Repeated entries will be ignored
+:q!
