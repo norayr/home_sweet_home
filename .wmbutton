@@ -11,9 +11,9 @@
 11	mozilla -mail &
 21	firefox &
 
-2	xterm -geometry 80x35 -sb -fg white -bg grey20 -T 'Xterm: User' &
+2	uxterm -sb -fa 'Mono' -fs 10 &
 12	xterm -geometry 80x35 -sb -fg snow -bg midnightblue -T 'Xterm: Root' &
-22	gnome-terminal &
+22	xterm -geometry 80x35 -sb -fg white -bg grey20 -T 'Xterm: User' &
 
 3	redshift &
 13	nxterm -fg black -bg grey70 -T 'FTP' -e ftp &
