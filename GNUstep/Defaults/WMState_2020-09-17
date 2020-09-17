@@ -57,14 +57,25 @@
       },
       {
         Forced = No;
-        Name = wmacpi.DockApp;
-        DropCommand = "wmacpi %d";
+        Name = wmcpu.wmcpu;
+        DropCommand = "wmcpu %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,6";
         Lock = Yes;
-        PasteCommand = "wmacpi %s";
-        Command = wmacpi;
+        PasteCommand = "wmcpu %s";
+        Command = wmcpu;
+      },
+      {
+        Forced = No;
+        Name = WmLaptop.WmLaptop;
+        DropCommand = "wmlaptop %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = Yes;
+        PasteCommand = "wmlaptop %s";
+        Command = wmlaptop;
       },
       {
         Forced = No;
@@ -83,10 +94,21 @@
         DropCommand = "wmnd %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
-        Position = "0,7";
+        Position = "0,8";
         Lock = Yes;
         PasteCommand = "wmnd %s";
         Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = wmxkb.WMxkb;
+        DropCommand = "wmxkb %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "wmxkb %s";
+        Command = wmxkb;
       },
       {
         Forced = No;
@@ -94,32 +116,10 @@
         DropCommand = "bubblemon %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
-        Position = "0,8";
-        Lock = Yes;
-        PasteCommand = "bubblemon %s";
-        Command = bubblemon;
-      },
-      {
-        Forced = No;
-        Name = wmgtemp.wmgtemp;
-        DropCommand = "wmgtemp %d";
-        BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,9";
-        Lock = Yes;
-        PasteCommand = "wmgtemp %s";
-        Command = wmgtemp;
-      },
-      {
-        Forced = No;
-        Name = wmbutton.Wmbutton;
-        DropCommand = "wmbutton %d";
-        BuggyApplication = No;
-        AutoLaunch = Yes;
         Position = "0,10";
         Lock = Yes;
-        PasteCommand = "wmbutton %s";
-        Command = wmbutton;
+        PasteCommand = "bubblemon -p -k /usr/share/bubblemon/wakwak.sh";
+        Command = "bubblemon -p -k /usr/share/bubblemon/wakwak.sh";
       }
     );
     Applications1080 = (
@@ -178,14 +178,25 @@
       },
       {
         Forced = No;
-        Name = wmacpi.DockApp;
-        DropCommand = "wmacpi %d";
+        Name = wmcpu.wmcpu;
+        DropCommand = "wmcpu %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,6";
         Lock = Yes;
-        PasteCommand = "wmacpi %s";
-        Command = wmacpi;
+        PasteCommand = "wmcpu %s";
+        Command = wmcpu;
+      },
+      {
+        Forced = No;
+        Name = WmLaptop.WmLaptop;
+        DropCommand = "wmlaptop %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = Yes;
+        PasteCommand = "wmlaptop %s";
+        Command = wmlaptop;
       },
       {
         Forced = No;
@@ -204,10 +215,21 @@
         DropCommand = "wmnd %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
-        Position = "0,7";
+        Position = "0,8";
         Lock = Yes;
         PasteCommand = "wmnd %s";
         Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = wmxkb.WMxkb;
+        DropCommand = "wmxkb %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "wmxkb %s";
+        Command = wmxkb;
       },
       {
         Forced = No;
@@ -215,47 +237,56 @@
         DropCommand = "bubblemon %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
-        Position = "0,8";
-        Lock = Yes;
-        PasteCommand = "bubblemon %s";
-        Command = bubblemon;
-      },
-      {
-        Forced = No;
-        Name = wmgtemp.wmgtemp;
-        DropCommand = "wmgtemp %d";
-        BuggyApplication = No;
-        AutoLaunch = Yes;
-        Position = "0,9";
-        Lock = Yes;
-        PasteCommand = "wmgtemp %s";
-        Command = wmgtemp;
-      },
-      {
-        Forced = No;
-        Name = wmbutton.Wmbutton;
-        DropCommand = "wmbutton %d";
-        BuggyApplication = No;
-        AutoLaunch = Yes;
         Position = "0,10";
         Lock = Yes;
-        PasteCommand = "wmbutton %s";
-        Command = wmbutton;
+        PasteCommand = "bubblemon -p -k /usr/share/bubblemon/wakwak.sh";
+        Command = "bubblemon -p -k /usr/share/bubblemon/wakwak.sh";
       }
     );
     Lowered = Yes;
-    Position = "0,144";
+    Position = "0,154";
   };
   Clip = {
     Forced = No;
     Name = Logo.WMClip;
     BuggyApplication = No;
     AutoLaunch = No;
-    Position = "0,0";
+    Position = "0,1";
     Lock = No;
     Command = "-";
   };
-  Applications = ();
+  Applications = (
+    {
+      Name = xterm.UXTerm;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "xterm -class UXTerm -title uxterm -u8 -sb -fa Mono -fs 10";
+      Geometry = "659x364+883+478";
+      Hidden = No;
+      Workspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 1";
+      ShortcutMask = 0;
+    },
+    {
+      Name = xterm.UXTerm;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "xterm -class UXTerm -title uxterm -u8 -sb -fa Mono -fs 10";
+      Geometry = "659x364+220+127";
+      Hidden = No;
+      Workspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 1";
+      ShortcutMask = 0;
+    },
+    {
+      Name = xterm.UXTerm;
+      Shaded = No;
+      Miniaturized = No;
+      Command = "xterm -class UXTerm -title uxterm -u8 -sb -fa Mono -fs 10";
+      Geometry = "659x364+1184+0";
+      Hidden = No;
+      Workspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 1";
+      ShortcutMask = 0;
+    }
+  );
   Drawers = ();
   Workspaces = (
     {
@@ -274,7 +305,7 @@
         AutoRaiseLower = No;
         AutoCollapse = No;
         Applications = ();
-        Collapsed = Yes;
+        Collapsed = No;
         AutoAttractIcons = No;
         Lowered = Yes;
       };
@@ -329,7 +360,7 @@
         AutoRaiseLower = No;
         AutoCollapse = No;
         Applications = ();
-        Collapsed = Yes;
+        Collapsed = No;
         AutoAttractIcons = No;
         Lowered = Yes;
       };
@@ -340,7 +371,7 @@
         AutoRaiseLower = No;
         AutoCollapse = No;
         Applications = ();
-        Collapsed = Yes;
+        Collapsed = No;
         AutoAttractIcons = No;
         Lowered = Yes;
       };
@@ -406,7 +437,7 @@
         AutoRaiseLower = No;
         AutoCollapse = No;
         Applications = ();
-        Collapsed = Yes;
+        Collapsed = No;
         AutoAttractIcons = No;
         Lowered = Yes;
       };
@@ -417,100 +448,12 @@
         AutoRaiseLower = No;
         AutoCollapse = No;
         Applications = ();
-        Collapsed = Yes;
+        Collapsed = No;
         AutoAttractIcons = No;
         Lowered = Yes;
       };
       Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 15";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 16";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 17";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 18";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 19";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 20";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 21";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 22";
-    },
-    {
-      Clip = {
-        AutoRaiseLower = No;
-        AutoCollapse = No;
-        Applications = ();
-        Collapsed = No;
-        AutoAttractIcons = No;
-        Lowered = Yes;
-      };
-      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 23";
     }
   );
-  Workspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 23";
+  Workspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 1";
 }
