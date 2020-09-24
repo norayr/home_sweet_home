@@ -1,0 +1,5 @@
+new way to remove:
+emerge --deselect <package>
+emerge -ac #depclean
+if it's not removed, check what needs it with
+emerge -pvc <package>
