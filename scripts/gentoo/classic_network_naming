@@ -1,0 +1,1 @@
+touch /etc/udev/rules.d/80-net-name-slot.rules
