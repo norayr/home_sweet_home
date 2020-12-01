@@ -1,6 +1,12 @@
-# Bluetooth headset
+# beo
+#defaults.bluealsa {
+#     interface "hci0"            # host Bluetooth adapter
+#     device "00:12:6F:15:06:DD"  # Bluetooth headset MAC address
+#     profile "a2dp"
+#}
+#ditoo
 defaults.bluealsa {
      interface "hci0"            # host Bluetooth adapter
-     device "00:12:6F:15:06:DD"  # Bluetooth headset MAC address
+     device "11:75:58:5B:FF:E7"  # Bluetooth headset MAC address
      profile "a2dp"
 }
