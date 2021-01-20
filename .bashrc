@@ -46,6 +46,7 @@ alias bchrom='google-chrome-stable --alsa-output-device=bluealsa'
 alias bchromi='chromium --alsa-output-device=bluealsa'
 alias drop_all="sudo sync; sudo bash echo 3 > /proc/sys/vm/drop_caches"
 alias r="sudo"
+alias afox="APULSE_CAPTURE_DEVICE="plughw:1,0" apulse firefox-bin"
 #gentoo
 alias eworld="emerge -avuND @world"
 alias eclean="emerge --depclean -a"
