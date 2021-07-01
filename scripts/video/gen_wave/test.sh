@@ -1,6 +1,7 @@
 INPUT="-i ishome-friend.mp3"
 IMG=test.jpg
 FONT='/home/inky/.fonts/SyntaxLTStd-Black.otf'
+FONT='/home/inky/.fonts/SyntaxLTStd-Roman.otf'
 SIZE="15"
 SIZE="5"
 RES='1920x1080'
@@ -55,4 +56,5 @@ ffmpeg ${INPUT} -i ${IMG} -ss 00:00:00   -filter_complex \
   [0:a]showwaves=mode=${WVTP}:s=${WAVE}:colors=${COLOR}:scale=lin:r=25[waves]; \
  [bg]drawtext=fontfile=${FONT}:fontsize=${SIZE}:timecode='00\:00\:00\:00':rate=25:fontsize=65:fontcolor='white':boxcolor='black':box=1:x=${X}-text_w/2:y=${Y}[out]" \
   -map "[out]" -map [a] \
-  -c:v libx264 -preset fast -crf 18 -c:a aac -b:a 128k  ${OUT}
+  -c:v libx264 -preset fast -crf 18 -c:a aac -b:a 256k -f mpegts pipe:1 | ffplay -i pipe:0 
+  #-c:v libx264 -preset fast -crf 18 -c:a aac -b:a 256k  ${OUT}
