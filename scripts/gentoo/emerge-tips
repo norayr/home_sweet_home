@@ -3,3 +3,32 @@ emerge --deselect <package>
 emerge -ac #depclean
 if it's not removed, check what needs it with
 emerge -pvc <package>
+
+
+#alias eworld="emerge -avuND @world"
+#alias eclean="emerge --depclean -a"
+#alias ecleanmoar="eclean-dist --deep"
+
+to slow down:
+in make.conf:
+
+___
+MAKEOPTS="-j1  --load-average=0.5"
+EMERGE_DEFAULT_OPTS="--jobs 1 --load-average=0.5"
+#this adds 10 to the niceness
+PORTAGE_NICENESS=10
+___
+
+
+also:
+
+___
+cpulimit -e cc1plus  -l 4&
+cpulimit -e cc1  -l 4&
+cpulimit -e perl  -l 4&
+___
+
+
+ionice -c3 emerge gentoo-sources linux-firmware yaboot
+
+
