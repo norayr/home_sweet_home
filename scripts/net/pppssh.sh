@@ -61,6 +61,14 @@ if ! test -f $SSH   ; then echo "can't find $SSH";   exit 4; fi
 case "$1" in
   start)
     # echo -n "Starting vpn to $SERVER_HOSTNAME: "
+    printf "%s" "waiting for $SERVER_HOSTNAME ..."
+    while ! ping -c 1 -n -w 1 $SERVER_HOSTNAME &> /dev/null
+    do
+      printf "%c" "."
+      sleep 1
+    done
+    printf "\n%s\n"  "Server is back online"
+
     sudo ${PPPD} updetach noauth passive pty "${SSH} ${LOCAL_SSH_OPTS} -t ${SERVER_HOSTNAME} -l${SERVER_USERNAME} -o Batchmode=yes sudo ${PPPD} nodetach notty noauth" ipparam vpn ${CLIENT_IFIPADDR}:${SERVER_IFIPADDR}
     # echo "connected."
     ;;
