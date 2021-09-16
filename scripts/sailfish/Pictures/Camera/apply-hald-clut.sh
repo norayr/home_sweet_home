@@ -16,10 +16,10 @@ LUTS=vsco-fuji-provia-400x.png
 
 CONVERT=/usr/bin/convert
 FL="${1%.*}"
-FLLUT="${LUT%.*}"
 
 for LUT in $LUTS
 do
+  FLLUT="${LUT%.*}"
   $CONVERT $1 ${LPATH}/${LUT} -hald-clut ${FL}-${FLLUT}.jpg
 done
 
