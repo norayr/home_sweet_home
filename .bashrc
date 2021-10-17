@@ -51,6 +51,7 @@ alias afox="APULSE_CAPTURE_DEVICE="plughw:1,0" apulse firefox-bin"
 alias eworld="emerge -avuND @world"
 alias eclean="emerge --depclean -a"
 alias ecleanmoar="eclean-dist --deep"
+alias rshift="redshift -l 40.1833330:44.5166670 -b 0.7"
 export BROWSER=/usr/bin/seamonkey
 #PS1='[\D{%F %T} \u@\h \W]\$ '
 #PS1='[\D{%F %T}] \$ '
