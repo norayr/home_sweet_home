@@ -1,0 +1,180 @@
+# Armenian layout created by Norayr Chilingarian
+# Yerevan
+# Oct 2020
+---
+outlines:
+    default: { width: 32, height: 52 }
+    altline: { width: 48.39024, height: 52 }
+    wide: { width: 62, height: 52 }
+    outline7: { width: 88.97561, height: 52 }
+    spaceline: { width: 150.5853, height: 52 }
+
+views:
+    base:
+        - "՝ ֆ ձ ֊ , ։ ՞ ․ ՛ ) օ է ղ"
+        - "ճ փ բ ս մ ո ւ կ ը թ ծ ց »"
+        - "ջ վ գ ե ա ն ի տ հ պ ր"
+        - "Shift_L ժ դ չ յ զ լ ք խ շ ռ BackSpace"
+        - "show_numbers preferences space period Return"
+    upper:
+        - "՜ Ֆ Ձ — $ … % և ՚ ( Օ Է Ղ"
+        - "Ճ Փ Բ Ս Մ Ո Ւ Կ Ը Թ Ծ Ց «"
+        - "Ջ Վ Գ Ե Ա Ն Ի Տ Հ Պ Պ Ր"
+        - "Shift_L Ժ Դ Չ Յ Զ Լ Ք Խ Շ Ռ BackSpace"
+        - "show_numbers preferences space « » Return"
+   numbers:
+        - "1 2 3 4 5 6 7 8 9 0"
+        - "at numbersign dollar percent ampersand minus underscore plus parenleft parenright"
+        - "show_symbols comma quotedbl quoteright colon semicolon exclam question BackSpace"
+        - "show_letters preferences space period Return"
+    symbols:
+        - "asciitilde quoteleft bar U00B7 squareroot Greek_pi Greek_tau division multiply paragraph"
+        - "copyright U00AE U00A3 EuroSign U00A5 asciicircum degree asterisk braceleft braceright"
+        - "show_numbers backslash slash less greater equal bracketleft bracketright  BackSpace"
+        - "show_letters preferences space period Return"
+buttons:
+    Shift_L:
+        action:
+            locking:
+                lock_view: "upper"
+                unlock_view: "base"
+        outline: "altline"
+        icon: "key-shift"
+    BackSpace:
+        outline: "altline"
+        icon: "edit-clear-symbolic"
+        action: "erase"
+    preferences:
+        action: "show_prefs"
+        outline: "altline"
+        icon: "keyboard-mode-symbolic"
+    show_numbers:
+        action:
+            set_view: "numbers"
+        outline: "altline"
+        label: "123"
+    show_letters:
+        action:
+            set_view: "base"
+        outline: "altline"
+        label: "ΑΒΓ"
+    show_symbols:
+        action:
+            set_view: "symbols"
+        outline: "altline"
+        label: "*/="
+   show_base:
+        action:
+            set_view: "base"
+        outline: "altline"
+        label: "αι"
+    period:
+        outline: "altline"
+        text: "."
+    space:
+        outline: spaceline
+        text: " "
+    Return:
+        outline: "wide"
+        icon: "key-enter"
+        keysym: "Return"
+    aring:
+        text: "å"
+    Aring:
+        text: "Å"
+    oslash:
+        text: "ø"
+    Oslash:
+        text: "Ø"
+    ae:
+        text: "æ"
+    AE:
+        text: "Æ"
+    asterisk:
+        text: "*"
+    asciitilde:
+        text: "~"
+    quoteleft:
+        text: "`"
+    bar:
+        text: "|"
+    U00B7:
+        text: "·"
+    squareroot:
+        text: "√"
+    Greek_pi:
+        text: "π"
+    division:
+        text: "÷"
+    multiply:
+        text: "×"
+    paragraph:
+        text: "¶"
+    Greek_tau:
+        text: "τ"
+    copyright:
+        text: "©"
+    numbersign:
+        text: "#"
+    U00AE:
+        text: "®"
+    at:
+        text: "@"
+    dollar:
+        text: "$"
+    U00A3:
+        text: "£"
+    percent:
+        text: "%"
+    EuroSign:
+        text: "€"
+    ampersand:
+        text: "&"
+    U00A5:
+        text: "¥"
+    minus:
+        text: "-"
+    asciicircum:
+        text: "^"
+    underscore:
+        text: "_"
+    degree:
+        text: "°"
+    plus:
+        text: "+"
+    equal:
+        text: "="
+    parenleft:
+        text: "("
+    parenright:
+        text: ")"
+    braceleft:
+        text: "{"
+    braceright:
+        text: "}"
+    comma:
+        text: ","
+    backslash:
+        text: "\\"
+    slash:
+        text: "/"
+    quotedbl:
+        text: "\""
+    quoteright:
+        text: "'"
+    less:
+        text: "<"
+    greater:
+        text: ">"
+    colon:
+        text: ":"
+    semicolon:
+        text: ";"
+    exclam:
+        text: "!"
+    question:
+        text: "?"
+    bracketleft:
+        text: "["
+    bracketright:
+        text: "]"

@@ -1,0 +1,6 @@
+LUT="fujichrome-astia-100-daylight.png"
+LUT="fujichrome-provia-100f.png"
+LUT="fujichrome-velvia-50.png"
+#LUT="fujichrome-sensia-400-exp-2011.png"
+SRC="MVI_6566.MOV"
+ffmpeg -i $SRC -i $LUT -filter_complex "haldclut" "out-${LUT}.mp4"
