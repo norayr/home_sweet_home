@@ -4,7 +4,7 @@ function find_active_tab_from_list {
   local func_result=""
   for i in "$@"
   do
-    res=`wmctrl -l | grep ${i} | awk {' print $1 '}`
+    res=`wmctrl -lx | grep Pidgin.Pidgin | grep ${i} | awk {' print $1 '}`
     if [[ -n "$res" ]]
     then
       #func_result=$i
