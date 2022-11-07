@@ -75,9 +75,10 @@ if [ -n "$DCRAW" ]; then
 		if [ "$CONVERT" = "convert" ]; then
 			#convert "$MAIN_PICTURE.$TIFF_EXT" -sharpen 0x1.0 -sigmoidal-contrast 6,50% "$TARGET_NAME.jpg"
 			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/fujichrome-sensia-400-exp-2011.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_sensia.jpg"
-			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/fujichrome-velvia-50.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_velvia.jpg"
-			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/vsco-kodachrome25.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_kodachrome.jpg"
-			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/fuji-reala-500d-exp-2013.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_reala.jpg"
+			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/fujichrome-astia-100f-daylight-exp-2005.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_astia.jpg"
+#			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/fujichrome-velvia-50.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_velvia.jpg"
+#			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/vsco-kodachrome25.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_kodachrome.jpg"
+#			convert "$MAIN_PICTURE.$TIFF_EXT" /home/user/lut/fuji-reala-500d-exp-2013.png -hald-clut -sharpen 0x1.0 -sigmoidal-contrast 6,50% "${TARGET_NAME}_reala.jpg"
 		else
 			# sadly sigmoidal contrast is not available in imagemagick
 			gm convert "$MAIN_PICTURE.$TIFF_EXT" -sharpen 0x1.0 "$TARGET_NAME.jpg"
