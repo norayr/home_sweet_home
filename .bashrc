@@ -51,6 +51,12 @@ alias afox="APULSE_CAPTURE_DEVICE="plughw:1,0" apulse firefox-bin"
 alias eworld="emerge -avuND @world"
 alias eclean="emerge --depclean -a"
 alias ecleanmoar="eclean-dist --deep"
+
+#alpine
+alias dpkg-l="apk info -vv"
+alias dpkg-S="apk info --who-owns"
+alias dpkg-L="apk -L info"
+
 alias rshift="redshift -l 40.1833330:44.5166670 -b 0.7"
 export BROWSER=/usr/bin/seamonkey
 #PS1='[\D{%F %T} \u@\h \W]\$ '
@@ -59,7 +65,6 @@ export BROWSER=/usr/bin/seamonkey
 PS1='\[\033[01;34m\][\D{%F %T}] \$ \[\033[00;37m\]'
 #PS1='\[\033[01;32m\][\D{%F} \[\033[01;34m\] \D{%T}] \$ \[\033[00;37m\]'
 #PS1='\[\033[01;32m\]\D{%F} \[\033[01;34m\]\D{%T} \$ \[\033[00;37m\]'
-
 
 #color names
 #https://invisible-island.net/xterm/xterm.faq.html#color_by_number
