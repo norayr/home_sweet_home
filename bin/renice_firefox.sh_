@@ -1,0 +1,22 @@
+	set -x
+	pid=`ps aux | grep firefox | grep -v childID | head -1 | awk {' print $2 '}`
+	function my_renice(){
+  newnice=15
+  #pid=$1
+
+  # Return if pid not found
+  if [ -z $pid ]; then return; fi
+
+  # Renice pid right away in case we spawn more children
+  renice $newnice $pid
+
+  # Find children pids
+  children=$(pgrep -d ' ' -P $pid)
+
+  # Loop through children
+  for i in $children; do my_renice $i; done
+	}
+
+	renice $newnice $pid
+  children=$(pgrep -d ' ' -P $pid)
+  for i in $children; do my_renice $i; done

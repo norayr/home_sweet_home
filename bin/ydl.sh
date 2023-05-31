@@ -1,2 +1,1 @@
-#youtube-dl -k -x --audio-format mp3 --audio-quality 0 $1
-youtube-dl -x --audio-format mp3 --audio-quality 0 $1
+ ~/bin/youtube-dl -x --audio-format best --audio-quality 0 $1

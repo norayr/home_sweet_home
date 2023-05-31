@@ -1,0 +1,58 @@
+#!/bin/sh -e
+
+if [ -z "$1" ]; then
+	echo "usage: $1 example.com [client|server]"
+	exit 1
+fi
+
+xmppdomain="$1"
+adomain="$1"
+if type idn2 >/dev/null 2>/dev/null ; then
+	adomain="$(idn2 "$1")"
+elif type idn >/dev/null 2>/dev/null ; then
+	adomain="$(idn "$1")"
+fi
+
+if type wrapsrv >/dev/null 2>/dev/null ; then
+	echo Q | (
+	wrapsrv "_xmpps-${2:-client}._tcp.$adomain" \
+		openssl s_client \
+			-connect %h:%p \
+			-alpn "xmpp-${2:-client}" \
+			-servername "$xmppdomain" \
+			-no_ticket \
+			-showcerts \
+			-status \
+	||
+	wrapsrv "_xmpp-${2:-client}._tcp.$adomain" \
+		openssl s_client \
+			-connect %h:%p \
+			-servername "$xmppdomain" \
+			-starttls "xmpp${2:+-}$2" \
+			-xmpphost "$xmppdomain" \
+			-no_ticket \
+			-showcerts \
+			-status \
+	||
+	openssl s_client \
+		-connect "$adomain:xmpp-${2:-client}" \
+		-starttls "xmpp${2:+-}$2" \
+		-servername "$xmppdomain" \
+		-xmpphost "$xmppdomain" \
+		-no_ticket \
+		-showcerts \
+		-status
+	)
+	# FIXME wrapsrv returns OK if there are zero SRVs so fallback does not work
+else
+	echo "No SRV support, skipping to fallback procedure">&2
+	echo Q |
+	openssl s_client \
+		-connect "$adomain:xmpp-${2:-client}" \
+		-starttls "xmpp${2:+-}$2" \
+		-servername "$xmppdomain" \
+		-xmpphost "$xmppdomain" \
+		-no_ticket \
+		-showcerts \
+		-status
+fi
