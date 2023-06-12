@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$2" = "IN" ]
+then
+   notify-send -c im.received "msg from $3" -t 4000
+fi
+
