@@ -1,6 +1,18 @@
 #!/bin/bash
+ROOMS="ada oberon fpc"
 if [ "$2" = "IN" ]
 then
    notify-send -c im.received "msg from $3" -t 4000
+else 
+  if [ "$2" = "MUC" ]
+  then
+     for i in $ROOMS
+     do
+       if [[ "$3" =~ "$i" ]]; then
+         notify-send -c im.received "msg in $3" -t 4000
+         echo "It's there!"
+       fi
+     done
+  fi
 fi
 
