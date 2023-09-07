@@ -1,0 +1,3 @@
+alias dpkg-l="apk info -vv"
+alias dpkg-S="apk info --who-owns"
+alias dpkg-L="apk -L info"

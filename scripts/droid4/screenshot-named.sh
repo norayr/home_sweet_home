@@ -3,12 +3,13 @@ mkdir -p $DST
 if [ -z "$1" ]
 then
   echo "no args supplied"
-  DELAY="7"
+  NAME=""
 else
-  echo "treating $1 as delay"
-  DELAY=$1
+  echo "we got desired name: $1"
+  NAME=$1
 fi
+  DELAY="7"
 DATE=`date -Ins | awk -F "," {' print $1 '}`
 
-sleep ${DELAY}; import -window root ${DST}/${DATE}.png
+sleep ${DELAY}; import -window root ${DST}/${DATE}_${NAME}.png
 
