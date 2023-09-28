@@ -2,27 +2,176 @@
   "Window Maker",
   (
     Applications,
-    (Terminals, (uxterm, EXEC, uxterm)),
-    (Internet, ("Mozilla Firefox", EXEC, firefox)),
-    (Mathematics, (bc, EXEC, "uxterm -e bc")),
-    ("File Managers", ("Midnight Commander", EXEC, "uxterm -e mc")),
-    (Graphics, (XBitmap, EXEC, bitmap)),
-    (Editors, (vi, EXEC, "uxterm -e vi"), (Nano, EXEC, "uxterm -e nano")),
-    (Development, (xev, EXEC, "uxterm -e xev")),
-    ("Window Maker", (Magnify, EXEC, wmagnify)),
-    (System, (top, EXEC, "uxterm -e top")),
-    ("P2P Network", (sftp, EXEC, "uxterm -e sftp"))
+    (
+      Terminals,
+      (
+        xterm,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fa 'Mono' -fs 10 -sl 4000 -cr yellow"
+      )
+    ),
+    (
+      Internet,
+      ("Mozilla Firefox", EXEC, firefox),
+      (
+        Links,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e links"
+      )
+    ),
+    (
+      Email,
+      ("Mozilla Thunderbird", EXEC, thunderbird),
+      (
+        Alpine,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e alpine"
+      )
+    ),
+    (
+      Mathematics,
+      (
+        bc,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e bc"
+      )
+    ),
+    (
+      "File Managers",
+      (
+        "Midnight Commander",
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e mc"
+      )
+    ),
+    (
+      Graphics,
+      (GIMP, EXEC, gimp),
+      (Inkscape, EXEC, inkscape),
+      (XBitmap, EXEC, bitmap),
+      (Geeqie, EXEC, geeqie),
+      ("ImageMagick Display", EXEC, display),
+      (XV, EXEC, xv)
+    ),
+    (Multimedia, (AcidRip, EXEC, acidrip)),
+    (
+      Editors,
+      (
+        vi,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e vi"
+      ),
+      (
+        VIM,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e vim"
+      ),
+      (
+        Pico,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e pico"
+      ),
+      (
+        Nano,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e nano"
+      )
+    ),
+    (
+      Development,
+      (gitview, EXEC, gitview),
+      (designer, EXEC, designer),
+      (
+        tclsh,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e tclsh"
+      ),
+      (
+        gdb,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e gdb"
+      ),
+      (
+        xev,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e xev"
+      )
+    ),
+    (
+      "Window Maker",
+      (Fire, EXEC, wmfire),
+      ("Memory Load", EXEC, wmmemload),
+      ("Network Devices", EXEC, wmnd),
+      ("Time & Date", EXEC, wmclock),
+      (Magnify, EXEC, wmagnify)
+    ),
+    (
+      Office,
+      (StarOffice, EXEC, soffice),
+      ("LibreOffice Writer", EXEC, lowriter),
+      ("LibreOffice Calc", EXEC, localc),
+      ("LibreOffice Draw", EXEC, lodraw),
+      ("LibreOffice Impress", EXEC, loimpress),
+      ("LibreOffice Math", EXEC, lomath),
+      ("LibreOffice Base", EXEC, lobase),
+      ("LibreOffice Web", EXEC, loweb),
+      (LibreOffice, EXEC, libreoffice)
+    ),
+    (
+      Sound,
+      (
+        "ALSA mixer",
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e alsamixer"
+      )
+    ),
+    (Viewers, (Evince, EXEC, evince), (ePDFView, EXEC, epdfview)),
+    (
+      Utilities,
+      ("Wine Configurator", EXEC, winecfg),
+      (NMap, EXEC, nmapfe),
+      ("VNC Viewer", EXEC, vncviewer),
+      ("Java Control Panel", EXEC, ControlPanel)
+    ),
+    (
+      System,
+      (
+        Iotop,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e iotop -d 4 --only"
+      ),
+      (
+        top,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e top"
+      )
+    ),
+    ("Chat and Talk", (Pidgin, EXEC, pidgin)),
+    (
+      "P2P Network",
+      (
+        sftp,
+        EXEC,
+        "xterm -bg black -fg white +sb +sm -fn 10x20 -sl 4000 -cr yellow -e sftp"
+      )
+    )
   ),
-  (Run..., EXEC, "%A(Run, Type command:)"),
-  (
-    uxterm,
-    SHORTCUT,
-    "Control+Mod1+t",
-    EXEC,
-    "uxterm -sb -fa 'Mono' -fs 10"
-  ),
-  ("Mozilla Firefox", EXEC, firefox),
-  ("Mozilla Seamonkey", EXEC, seamonkey),
+  (run..., SHORTCUT, "Control+Mod1+r", EXEC, "%A(Run, Type command:)"),
+  (xterm, SHORTCUT, "Control+Mod1+x", EXEC, "uxterm -sb -fa 'Mono' -fs 10"),
+  (terminology, SHORTCUT, "Control+Shift+n", EXEC, terminology),
+  (mrxvt, SHORTCUT, "Control+Mod+/", EXEC, mrxvt),
+  ("firefox", EXEC, /usr/bin/firefox),
+  ("firefox-private", EXEC, "/usr/bin/firefox -private-window"),
+	(chromium, EXEC, "chromium-bin --incognito"),
+  ("netsurf", EXEC, "netsurf-gtk3"),
+  ("lagrange", EXEC, "/usr/local/bin/lagrange.sh"),
+  ("mozilla seamonkey", EXEC, seamonkey),
+  (xmag, SHORTCUT, "Control+Mod1+g", EXEC, xmag),
+  (xkill, SHORTCUT, "Control+Mod1+k", EXEC, xkill),
+  (xv, SHORTCUT, "Control+Mod1+k", EXEC, xv),
+  ("am+dvp+eo", SHORTCUT, "Control+Shift+a", EXEC, "setxkbmap "us(dvp), am" -option "esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch""),
+  ("am+dvp+ru", SHORTCUT, "Control+Shift+r", EXEC, "setxkbmap 'us(dvp), am, ru(phonetic_dvorak)' -option 'grp:alt_shift_toggle'"),
+  ("am+dvp+ge", SHORTCUT, "Control+Shift+g", EXEC, "setxkbmap 'us(dvp), am, ge' -option 'grp:alt_shift_toggle'"),
   (
     Appearance,
     (
@@ -158,6 +307,7 @@
   ("Configure Window Maker", EXEC, WPrefs),
   ("Info Panel", INFO_PANEL),
   ("Restart Window Maker", RESTART),
+  ("Other Window Managers", ("Start Motif Window Manager", RESTART, mwm)),
   ("Lock Screen", EXEC, "xlock -allowroot -usefirst -mode matrix"),
   ("Lock xscreenaver", EXEC, "xscreensaver-command -lock"),
   ("Exit Window Maker", EXIT)
