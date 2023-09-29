@@ -169,7 +169,7 @@
   (xmag, SHORTCUT, "Control+Mod1+g", EXEC, xmag),
   (xkill, SHORTCUT, "Control+Mod1+k", EXEC, xkill),
   (xv, SHORTCUT, "Control+Mod1+k", EXEC, xv),
-  ("am+dvp+eo", SHORTCUT, "Control+Shift+a", EXEC, "setxkbmap "us(dvp), am" -option "esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch""),
+  ("am+dvp+eo", SHORTCUT, "Control+Shift+a", EXEC, "setxkbmap 'us(dvp), am' -option 'esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch'"),
   ("am+dvp+ru", SHORTCUT, "Control+Shift+r", EXEC, "setxkbmap 'us(dvp), am, ru(phonetic_dvorak)' -option 'grp:alt_shift_toggle'"),
   ("am+dvp+ge", SHORTCUT, "Control+Shift+g", EXEC, "setxkbmap 'us(dvp), am, ge' -option 'grp:alt_shift_toggle'"),
   (
