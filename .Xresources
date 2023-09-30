@@ -1,15 +1,25 @@
 xterm*background: black
+uxterm*background: black
 xterm*foreground: lightgray
+uxterm*foreground: lightgray
 
 
 
 XTerm.vt100.saveLines: 65535
+UXTerm.vt100.saveLines: 65535
 XTerm.vt100.selectToClipboard: true
+UXTerm.vt100.selectToClipboard: true
 
 xterm*faceName: Monospace
+uxterm*faceName: Monospace
 xterm*faceSize: 14
+uxterm*faceSize: 14
 
 xterm*allowWindowOps: true
+uxterm*allowWindowOps: true
 XTerm.vt100.translations: #override \n\
+  Ctrl <Key> minus: smaller-vt-font() \n\
+  Ctrl <Key> plus: larger-vt-font()
+UXTerm.vt100.translations: #override \n\
   Ctrl <Key> minus: smaller-vt-font() \n\
   Ctrl <Key> plus: larger-vt-font()

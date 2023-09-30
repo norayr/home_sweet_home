@@ -157,21 +157,38 @@
     )
   ),
   (run..., SHORTCUT, "Control+Mod1+r", EXEC, "%A(Run, Type command:)"),
-  (xterm, SHORTCUT, "Control+Mod1+x", EXEC, "uxterm -sb -fa 'Mono' -fs 10"),
-  (terminology, SHORTCUT, "Control+Shift+n", EXEC, terminology),
+  (xterm, SHORTCUT, "Control+Mod1+n", EXEC, "xterm -sb -fa 'Mono' -fs 16"),
   (mrxvt, SHORTCUT, "Control+Mod+/", EXEC, mrxvt),
-  ("firefox", EXEC, /usr/bin/firefox),
+  (firefox, EXEC, "/usr/bin/firefox"),
   ("firefox-private", EXEC, "/usr/bin/firefox -private-window"),
-	(chromium, EXEC, "chromium-bin --incognito"),
-  ("netsurf", EXEC, "netsurf-gtk3"),
-  ("lagrange", EXEC, "/usr/local/bin/lagrange.sh"),
+  (chromium, EXEC, "chromium-bin --incognito"),
+  (netsurf, EXEC, "netsurf-gtk3"),
+  (lagrange, EXEC, "/usr/local/bin/lagrange.sh"),
   ("mozilla seamonkey", EXEC, seamonkey),
   (xmag, SHORTCUT, "Control+Mod1+g", EXEC, xmag),
   (xkill, SHORTCUT, "Control+Mod1+k", EXEC, xkill),
   (xv, SHORTCUT, "Control+Mod1+k", EXEC, xv),
-  ("am+dvp+eo", SHORTCUT, "Control+Shift+a", EXEC, "setxkbmap 'us(dvp), am' -option 'esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch'"),
-  ("am+dvp+ru", SHORTCUT, "Control+Shift+r", EXEC, "setxkbmap 'us(dvp), am, ru(phonetic_dvorak)' -option 'grp:alt_shift_toggle'"),
-  ("am+dvp+ge", SHORTCUT, "Control+Shift+g", EXEC, "setxkbmap 'us(dvp), am, ge' -option 'grp:alt_shift_toggle'"),
+  (
+    "am+dvp+eo",
+    SHORTCUT,
+    "Control+Shift+a",
+    EXEC,
+    "setxkbmap 'us(dvp), am' -option 'esperanto:dvorak,grp:lalt_lshift_toggle,lv3:win_switch'"
+  ),
+  (
+    "am+dvp+ru",
+    SHORTCUT,
+    "Control+Shift+r",
+    EXEC,
+    "setxkbmap 'us(dvp), am, ru(phonetic_dvorak)' -option 'grp:alt_shift_toggle'"
+  ),
+  (
+    "am+dvp+ge",
+    SHORTCUT,
+    "Control+Shift+g",
+    EXEC,
+    "setxkbmap 'us(dvp), am, ge' -option 'grp:alt_shift_toggle'"
+  ),
   (
     Appearance,
     (
