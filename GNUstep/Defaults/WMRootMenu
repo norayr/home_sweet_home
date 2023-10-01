@@ -159,7 +159,7 @@
   (run..., SHORTCUT, "Control+Mod1+r", EXEC, "%A(Run, Type command:)"),
   (xterm, SHORTCUT, "Control+Mod1+n", EXEC, "xterm -sb -fa 'Mono' -fs 16"),
   (mrxvt, SHORTCUT, "Control+Mod+/", EXEC, mrxvt),
-  (firefox, EXEC, "/usr/bin/firefox"),
+  (firefox, SHORTCUT, "Control+Mod1+f", EXEC, "/usr/bin/firefox"),
   ("firefox-private", EXEC, "/usr/bin/firefox -private-window"),
   (chromium, EXEC, "chromium-bin --incognito"),
   (netsurf, EXEC, "netsurf-gtk3"),
