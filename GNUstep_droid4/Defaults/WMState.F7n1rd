@@ -1,0 +1,754 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = wmmemload.DockApp;
+        DropCommand = "wmmemload %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "wmmemload %s";
+        Command = wmmemload;
+      },
+      {
+        Forced = No;
+        Name = "wmmon+smp.wmmon+smp";
+        DropCommand = "wmmon+smp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmmon+smp %s";
+        Command = "wmmon+smp";
+      },
+      {
+        Forced = No;
+        Name = wmwifi.DockApp;
+        DropCommand = "wmwifi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmwifi %s";
+        Command = wmwifi;
+      },
+      {
+        Forced = No;
+        Name = wmbattery.wmbattery;
+        DropCommand = "wmbattery %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = Yes;
+        PasteCommand = "wmbattery %s";
+        Command = wmbattery;
+      },
+      {
+        Forced = No;
+        Name = wmix.wmix;
+        DropCommand = "wmix %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmix %s";
+        Command = "wmix -m /dev/mixer";
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = bubblemon.bubblemon;
+        DropCommand = "bubblemon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = Yes;
+        PasteCommand = "bubblemon %s";
+        Command = bubblemon;
+      },
+      {
+        Forced = No;
+        Name = wmgtemp.wmgtemp;
+        DropCommand = "wmgtemp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "wmgtemp %s";
+        Command = wmgtemp;
+      },
+      {
+        Forced = No;
+        Name = wmbutton.Wmbutton;
+        DropCommand = "wmbutton %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,10";
+        Lock = Yes;
+        PasteCommand = "wmbutton %s";
+        Command = wmbutton;
+      },
+      {
+        Forced = No;
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = Yes;
+        PasteCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %s";
+        Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
+      },
+      {
+        Forced = No;
+        Name = wmSpaceWeather.wmSpaceWeather;
+        DropCommand = "wmSpaceWeather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,12";
+        Lock = Yes;
+        PasteCommand = "wmSpaceWeather %s";
+        Command = wmSpaceWeather;
+      }
+    );
+    Lowered = Yes;
+    Position = "0,96";
+    Applications1053 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = wmmemload.DockApp;
+        DropCommand = "wmmemload %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "wmmemload %s";
+        Command = wmmemload;
+      },
+      {
+        Forced = No;
+        Name = "wmmon+smp.wmmon+smp";
+        DropCommand = "wmmon+smp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmmon+smp %s";
+        Command = "wmmon+smp";
+      },
+      {
+        Forced = No;
+        Name = wmwifi.DockApp;
+        DropCommand = "wmwifi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmwifi %s";
+        Command = wmwifi;
+      },
+      {
+        Forced = No;
+        Name = wmbattery.wmbattery;
+        DropCommand = "wmbattery %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = Yes;
+        PasteCommand = "wmbattery %s";
+        Command = wmbattery;
+      },
+      {
+        Forced = No;
+        Name = wmix.wmix;
+        DropCommand = "wmix %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmix %s";
+        Command = "wmix -m /dev/mixer";
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = bubblemon.bubblemon;
+        DropCommand = "bubblemon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = Yes;
+        PasteCommand = "bubblemon %s";
+        Command = bubblemon;
+      },
+      {
+        Forced = No;
+        Name = wmgtemp.wmgtemp;
+        DropCommand = "wmgtemp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "wmgtemp %s";
+        Command = wmgtemp;
+      },
+      {
+        Forced = No;
+        Name = wmbutton.Wmbutton;
+        DropCommand = "wmbutton %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,10";
+        Lock = Yes;
+        PasteCommand = "wmbutton %s";
+        Command = wmbutton;
+      },
+      {
+        Forced = No;
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = Yes;
+        PasteCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %s";
+        Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
+      },
+      {
+        Forced = No;
+        Name = wmSpaceWeather.wmSpaceWeather;
+        DropCommand = "wmSpaceWeather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,12";
+        Lock = Yes;
+        PasteCommand = "wmSpaceWeather %s";
+        Command = wmSpaceWeather;
+      }
+    );
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,1";
+    Lock = No;
+    Command = "-";
+  };
+  Applications = (
+    {
+      Name = main.terminology;
+      Shaded = No;
+      Miniaturized = No;
+      Command = terminology;
+      Geometry = "803x459+601+467";
+      Hidden = No;
+      Workspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 1";
+      ShortcutMask = 0;
+    }
+  );
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 1";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 2";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 3";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 4";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 5";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 6";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 7";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 8";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 9";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 10";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 11";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 12";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 13";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 14";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 15";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 16";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 17";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 18";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 19";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 20";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 21";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 22";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 23";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 24";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 25";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 26";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 27";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 28";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 29";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 30";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 31";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 32";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 33";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 34";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 35";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 36";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 37";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 38";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 39";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "\324\261\325\267\325\255\325\24

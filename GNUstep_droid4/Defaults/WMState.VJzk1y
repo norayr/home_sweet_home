@@ -1,0 +1,824 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = "wmmon+smp.wmmon+smp";
+        DropCommand = "wmmon+smp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,14";
+        Lock = Yes;
+        PasteCommand = "wmmon+smp %s";
+        Command = "wmmon+smp";
+      },
+      {
+        Forced = No;
+        Name = wmwifi.DockApp;
+        DropCommand = "wmwifi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmwifi %s";
+        Command = wmwifi;
+      },
+      {
+        Forced = No;
+        Name = wmmemload.DockApp;
+        DropCommand = "wmmemload %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmmemload %s";
+        Command = wmmemload;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = wmix.wmix;
+        DropCommand = "wmix %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmix %s";
+        Command = wmix;
+      },
+      {
+        Forced = No;
+        Name = wmbattery.wmbattery;
+        DropCommand = "wmbattery %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = Yes;
+        PasteCommand = "wmbattery %s";
+        Command = wmbattery;
+      },
+      {
+        Forced = No;
+        Name = bubblemon.bubblemon;
+        DropCommand = "bubblemon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = Yes;
+        PasteCommand = "bubblemon %s";
+        Command = bubblemon;
+      },
+      {
+        Forced = No;
+        Name = shermans_applet.shermans_applet;
+        DropCommand = "/usr/local/bin/shermans.sh %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = Yes;
+        PasteCommand = "/usr/local/bin/shermans.sh %s";
+        Command = "/usr/local/bin/shermans.sh";
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = wmgtemp.wmgtemp;
+        DropCommand = "wmgtemp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,10";
+        Lock = Yes;
+        PasteCommand = "wmgtemp %s";
+        Command = wmgtemp;
+      },
+      {
+        Forced = No;
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,12";
+        Lock = Yes;
+        PasteCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %s";
+        Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
+      },
+      {
+        Forced = No;
+        Name = wmSpaceWeather.wmSpaceWeather;
+        DropCommand = "wmSpaceWeather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,13";
+        Lock = Yes;
+        PasteCommand = "wmSpaceWeather %s";
+        Command = wmSpaceWeather;
+      },
+      {
+        Forced = No;
+        Name = wmmoonclock.wmmoonclock;
+        DropCommand = "wmmoonclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = Yes;
+        PasteCommand = "wmmoonclock %s";
+        Command = wmmoonclock;
+      },
+      {
+        Forced = No;
+        Name = alsamixer_app.AlsaMixer_app;
+        DropCommand = "AlsaMixer.app %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "AlsaMixer.app %s";
+        Command = AlsaMixer.app;
+      }
+    );
+    Applications1504 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = "wmmon+smp.wmmon+smp";
+        DropCommand = "wmmon+smp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,14";
+        Lock = Yes;
+        PasteCommand = "wmmon+smp %s";
+        Command = "wmmon+smp";
+      },
+      {
+        Forced = No;
+        Name = wmwifi.DockApp;
+        DropCommand = "wmwifi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmwifi %s";
+        Command = wmwifi;
+      },
+      {
+        Forced = No;
+        Name = wmmemload.DockApp;
+        DropCommand = "wmmemload %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmmemload %s";
+        Command = wmmemload;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = wmix.wmix;
+        DropCommand = "wmix %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmix %s";
+        Command = wmix;
+      },
+      {
+        Forced = No;
+        Name = wmbattery.wmbattery;
+        DropCommand = "wmbattery %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,6";
+        Lock = Yes;
+        PasteCommand = "wmbattery %s";
+        Command = wmbattery;
+      },
+      {
+        Forced = No;
+        Name = bubblemon.bubblemon;
+        DropCommand = "bubblemon %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = Yes;
+        PasteCommand = "bubblemon %s";
+        Command = bubblemon;
+      },
+      {
+        Forced = No;
+        Name = shermans_applet.shermans_applet;
+        DropCommand = "/usr/local/bin/shermans.sh %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,8";
+        Lock = Yes;
+        PasteCommand = "/usr/local/bin/shermans.sh %s";
+        Command = "/usr/local/bin/shermans.sh";
+      },
+      {
+        Forced = No;
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,9";
+        Lock = Yes;
+        PasteCommand = "wmnd %s";
+        Command = wmnd;
+      },
+      {
+        Forced = No;
+        Name = wmgtemp.wmgtemp;
+        DropCommand = "wmgtemp %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,10";
+        Lock = Yes;
+        PasteCommand = "wmgtemp %s";
+        Command = wmgtemp;
+      },
+      {
+        Forced = No;
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,12";
+        Lock = Yes;
+        PasteCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %s";
+        Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
+      },
+      {
+        Forced = No;
+        Name = wmSpaceWeather.wmSpaceWeather;
+        DropCommand = "wmSpaceWeather %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,13";
+        Lock = Yes;
+        PasteCommand = "wmSpaceWeather %s";
+        Command = wmSpaceWeather;
+      },
+      {
+        Forced = No;
+        Name = wmmoonclock.wmmoonclock;
+        DropCommand = "wmmoonclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,11";
+        Lock = Yes;
+        PasteCommand = "wmmoonclock %s";
+        Command = wmmoonclock;
+      },
+      {
+        Forced = No;
+        Name = alsamixer_app.AlsaMixer_app;
+        DropCommand = "AlsaMixer.app %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "AlsaMixer.app %s";
+        Command = AlsaMixer.app;
+      }
+    );
+    Lowered = Yes;
+    Position = "0,387";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Applications = (
+    {
+      Name = main.terminology;
+      Shaded = No;
+      Miniaturized = No;
+      Command = terminology;
+      Geometry = "1203x699+524+374";
+      Hidden = No;
+      Workspace = "Workspace 1";
+      ShortcutMask = 0;
+    }
+  );
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 1";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 2";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 3";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 4";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 5";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 6";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 7";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 8";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 9";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 10";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 11";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 12";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 13";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 14";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 15";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 16";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 17";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 18";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 19";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 20";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 21";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 22";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 23";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 24";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 25";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 26";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 27";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 28";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 29";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 30";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 31";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 32";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 33";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 34";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 35";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 36";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 37";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 38";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 39";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 40";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 41";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 42";
+    }
+  );
+  Workspace = "Workspace 1";
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CurrentSongNumber</key>
+    <integer>0</integer>
+    <key>GeneralPreference</key>
+    <dict>
+	<key>AbsolutePlaylistReferences</key>
+	<false/>
+	<key>OutputBundle</key>
+	<string>ALSA</string>
+	<key>PlaylistFormat</key>
+	<string>m3u</string>
+	<key>SaveWindowsInformation</key>
+	<true/>
+	<key>StickyWindows</key>
+	<true/>
+	<key>WindowsInformation</key>
+	<dict>
+	    <key>PlayerWindow</key>
+	    <array>
+		<string>117 553 369 161 0 0  1580 1053 </string>
+	    </array>
+	</dict>
+    </dict>
+    <key>NSDefaultOpenDirectory</key>
+    <string>/amp/sounds/music_rekordbox/rip/dusty_kid</string>
+    <key>NSDefaultSaveDirectory</key>
+    <string>/u/inky/sounds</string>
+    <key>NSMenuLocations</key>
+    <dict>
+	<key>\U001B</key>
+	<string>123 743 153 202 0 0  1580 1053 </string>
+    </dict>
+    <key>PlaylistSortColumn</key>
+    <string></string>
+    <key>PlaylistSortDirection</key>
+    <integer>0</integer>
+    <key>RepeatMode</key>
+    <false/>
+    <key>ShuffleMode</key>
+    <false/>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+{
+  DefaultFontSize = 11;
+  DoubleClickTime = 250;
+  MouseWheelUp = Button4;
+  SystemFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=11";
+  BoldSystemFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=11";
+  AntialiasedText = Yes;
+  MouseWheelDown = Button5;
+  FloppyPath = "/media/floppy";
+}

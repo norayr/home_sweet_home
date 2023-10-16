@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>LayersPanelEnabledState</key>
+    <string>YES</string>
+    <key>NSWindow Frame LayersPanel</key>
+    <string>10 20 254 269 0 0  1920 1080 </string>
+    <key>NSWindow Frame PreviewPanel</key>
+    <string>1724 842 176 203 0 0  1920 1080 </string>
+    <key>NSWindow Frame ToolModifierTipsPanel</key>
+    <string>1538 20 362 287 0 0  1920 1080 </string>
+    <key>NSWindow Frame ToolsPanel</key>
+    <string>10 637 124 220 0 0  1920 1080 </string>
+    <key>PreviewPanelEnabledState</key>
+    <string>YES</string>
+    <key>ToolModifierTipsPanelEnabledState</key>
+    <string>YES</string>
+    <key>ToolsPanelEnabledState</key>
+    <string>YES</string>
+</dict>
+</plist>

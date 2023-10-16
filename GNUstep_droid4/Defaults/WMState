@@ -1,0 +1,637 @@
+{
+  Dock = {
+    Applications768 = (
+      {
+        Name = Logo.WMDock;
+        Lock = No;
+        AutoLaunch = No;
+        Command = "-";
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "bubblefishymon %s";
+        Name = bubblefishymon.bubblefishymon;
+        DropCommand = "bubblefishymon %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = bubblefishymon;
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmmoonclock %s";
+        Name = wmmoonclock.wmmoonclock;
+        DropCommand = "wmmoonclock %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmmoonclock;
+        Position = "0,6";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmmemload %s";
+        Name = wmmemload.DockApp;
+        DropCommand = "wmmemload %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmmemload;
+        Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmclock %s";
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmclock;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmnd %s";
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmnd;
+        Position = "0,4";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %s";
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
+        Position = "0,5";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+    Lowered = Yes;
+    Position = "0,205";
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Name = Logo.WMDock;
+        Lock = No;
+        AutoLaunch = No;
+        Command = "-";
+        Position = "0,0";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "bubblefishymon %s";
+        Name = bubblefishymon.bubblefishymon;
+        DropCommand = "bubblefishymon %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = bubblefishymon;
+        Position = "0,2";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmmoonclock %s";
+        Name = wmmoonclock.wmmoonclock;
+        DropCommand = "wmmoonclock %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmmoonclock;
+        Position = "0,6";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmmemload %s";
+        Name = wmmemload.DockApp;
+        DropCommand = "wmmemload %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmmemload;
+        Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmclock %s";
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmclock;
+        Position = "0,1";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmnd %s";
+        Name = wmnd.wmnd;
+        DropCommand = "wmnd %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmnd;
+        Position = "0,4";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %s";
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
+        Position = "0,5";
+        Forced = No;
+        BuggyApplication = No;
+      }
+    );
+  };
+  Clip = {
+    Name = Logo.WMClip;
+    Lock = No;
+    AutoLaunch = No;
+    Command = "-";
+    Position = "0,0";
+    Forced = No;
+    BuggyApplication = No;
+  };
+  Workspace = "\325\264\325\247\325\257";
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\264\325\247\325\257";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\264\325\247\325\265\325\254";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\264\325\247\325\265\325\254";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\271\325\270\326\200\325\275";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\326\203\326\200\325\271\326\200\325\251\325\241\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\241\325\255\325\272\325\245\326\200\325\241\325\257\325\241\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\254\325\245\325\246\325\270\326\202\325\266\325\245\326\200";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\326\203\325\241\325\265\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\264\325\241\325\245\325\264\326\205";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\273\325\245\325\266\325\251\325\270\326\202";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\273\325\245\325\264\325\253\325\266\325\253";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\326\203\326\200\325\271\326\200\325\251\325\270\326\201";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\247\325\254\325\253 \326\203\326\200\325\271\326\200\325\251\325\270\326\201";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\244\325\241\325\267\325\266\325\241\325\265\325\253\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\243\326\200\326\204\325\245\326\200";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\326\206\325\270\325\277\326\205";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\245\326\200\325\241\325\252\325\267\325\277\325\241\325\257\325\241\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\272\325\241\325\277\325\270\326\202\325\260\325\241\325\266\325\241\325\265\325\253\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\256\326\200\325\241\325\243\326\200\325\241\326\202\325\270\326\200\325\270\326\202\325\264";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\254\325\253\325\275\325\272";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\243\325\241\325\262\325\277\325\266\325\253\325\270\326\202\325\251\325\253\326\202\325\266";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\266\325\270\326\200\325\270\326\202\325\251\325\253\326\202\325\266\325\266\325\245\326\200";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "\325\277\325\270\325\257\325\253 \325\272\326\205\325\266\325\241";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 24";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 25";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 26";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 27";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 28";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 29";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 30";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 31";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 32";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 33";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 34";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = Yes;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 35";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 36";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 37";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 38";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 39";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 40";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 41";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 42";
+    }
+  );
+  Applications = ();
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ACCOUNTS</key>
+    <dict>
+	<key>General</key>
+	<dict>
+	    <key>MAILBOXES</key>
+	    <dict>
+		<key>DRAFTSFOLDERNAME</key>
+		<string>local:///home/inky/Mailboxes/Drafts</string>
+		<key>INBOXFOLDERNAME</key>
+		<string>local:///home/inky/Mailboxes/Inbox</string>
+		<key>SENTFOLDERNAME</key>
+		<string>local:///home/inky/Mailboxes/Sent</string>
+		<key>TRASHFOLDERNAME</key>
+		<string>local:///home/inky/Mailboxes/Trash</string>
+	    </dict>
+	    <key>PERSONAL</key>
+	    <dict>
+		<key>EMAILADDR</key>
+		<string>Your E-Mail address</string>
+		<key>NAME</key>
+		<string>Your name</string>
+	    </dict>
+	    <key>SEND</key>
+	    <dict>
+		<key>SMTP_HOST</key>
+		<string>smtp.server.com</string>
+		<key>TRANSPORT_METHOD</key>
+		<integer>2</integer>
+	    </dict>
+	</dict>
+    </dict>
+    <key>FOLDERS_TO_OPEN</key>
+    <array>
+	<string>local:///home/inky/Mailboxes/Inbox</string>
+    </array>
+    <key>HIDE_DELETED_MESSAGES</key>
+    <string>YES</string>
+    <key>HIGHLIGHT_URL</key>
+    <string>YES</string>
+    <key>IconSize</key>
+    <integer>1</integer>
+    <key>LOCALMAILDIR</key>
+    <string>/home/inky/Mailboxes</string>
+    <key>LOCALMAILDIR_PREVIOUS</key>
+    <string>/home/inky/Mailboxes</string>
+    <key>MailWindowColumnWidth</key>
+    <dict>
+	<key>Date</key>
+	<real>100</real>
+	<key>Flagged</key>
+	<real>17</real>
+	<key>From</key>
+	<real>155</real>
+	<key>Number</key>
+	<real>40</real>
+	<key>Size</key>
+	<real>70</real>
+	<key>Status</key>
+	<real>17</real>
+	<key>Subject</key>
+	<real>195</real>
+    </dict>
+    <key>NSMenuLocations</key>
+    <dict>
+	<key>\U001B</key>
+	<string>126 594 96 222 0 0  1920 1080 </string>
+    </dict>
+    <key>NSTableView Frame MailWindow</key>
+    <string>{x = 0; y = 0; width = 602; height = 282}</string>
+    <key>NSTextView Frame MailWindow</key>
+    <string>{x = 0; y = 288; width = 602; height = 282}</string>
+    <key>NSWindow Frame AccountEditorWindow</key>
+    <string>204 131 412 425 0 0  1920 1080 </string>
+    <key>NSWindow Frame AddressBookPanel</key>
+    <string>205 182 522 350 0 0  1920 1080 </string>
+    <key>NSWindow Frame ConsoleWindow</key>
+    <string>199 211 502 313 0 0  1920 1080 </string>
+    <key>NSWindow Frame MailWindow</key>
+    <string>392 171 614 628 0 0  1920 1080 </string>
+    <key>NSWindow Frame MailboxInspectorPanel</key>
+    <string>202 71 252 533 0 0  1920 1080 </string>
+    <key>NSWindow Frame MailboxManager</key>
+    <string>199 191 222 333 0 0  1920 1080 </string>
+    <key>NSWindow Frame PreferencesWindow</key>
+    <string>1006 125 474 425 0 0  1920 1080 </string>
+    <key>PREFERENCES_MODE</key>
+    <integer>1</integer>
+    <key>PreferredViewStyle</key>
+    <integer>1</integer>
+    <key>SHOWNHEADERS</key>
+    <array>
+	<string>Date</string>
+	<string>From</string>
+	<string>To</string>
+	<string>Cc</string>
+	<string>Subject</string>
+    </array>
+    <key>SHOWNTABLECOLUMNS</key>
+    <array>
+	<string>Flagged</string>
+	<string>Status</string>
+	<string>Number</string>
+	<string>Date</string>
+	<string>From</string>
+	<string>Subject</string>
+	<string>Size</string>
+    </array>
+</dict>
+</plist>

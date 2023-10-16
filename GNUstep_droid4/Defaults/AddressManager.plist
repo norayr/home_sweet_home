@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSDefaultOpenDirectory</key>
+    <string>/var/db/repos/gentoo/gnustep-apps/addresses</string>
+    <key>NSMenuLocations</key>
+    <dict>
+	<key>\U001B</key>
+	<string>94 459 108 182 0 0  1920 1080 </string>
+    </dict>
+    <key>NSWindow Frame Addresses</key>
+    <string>382 107 732 402 0 0  1920 1080 </string>
+    <key>NSWindow Frame Preferences</key>
+    <string>273 456 402 311 0 0  1920 1080 </string>
+    <key>SelectedGroup</key>
+    <string>None</string>
+    <key>SelectedPerson</key>
+    <string>2</string>
+</dict>
+</plist>

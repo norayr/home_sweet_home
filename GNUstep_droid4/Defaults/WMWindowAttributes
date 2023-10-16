@@ -1,0 +1,498 @@
+{
+  "nvidia-settings.Nvidia-settings" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/nvidia-settings.Nvidia-settings.xpm";
+  };
+  abiword.Abiword = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword.Abiword.xpm";
+  };
+  soffice.Soffice = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  };
+  lazarus.Lazarus = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/lazarus.Lazarus.xpm";
+  };
+  leafpad.Leafpad = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/leafpad.Leafpad.xpm";
+  };
+  roxterm.Roxterm = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/roxterm.Roxterm.xpm";
+  };
+  liferea.Liferea = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/liferea.Liferea.xpm";
+  };
+  "gdesklets-shell.Gdesklets-shell" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gdesklets-shell.Gdesklets-shell.xpm";
+  };
+  gitview.Gitview = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gitview.Gitview.xpm";
+  };
+  gkrellm.Gkrellm = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = No;
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gkrellm.Gkrellm.xpm";
+    NoTitlebar = Yes;
+    Omnipresent = Yes;
+  };
+  vlc.Vlc = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.Vlc.xpm";
+  };
+  "calibre-gui.Calibre-gui" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-gui.Calibre-gui.xpm";
+  };
+  Stepman = {
+    Icon = Bookshelf.xpm;
+  };
+  gmc.Gmc = {
+    NoAppIcon = YES;
+  };
+  "abiword-2.8.Abiword-2.8" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword-2.8.Abiword-2.8.xpm";
+  };
+  gpodder.Gpodder = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gpodder.Gpodder.xpm";
+  };
+  "org-openstreetmap-josm-Main.org-openstreetmap-josm-Main" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/org-openstreetmap-josm-Main.org-openstreetmap-josm-Main.xpm";
+  };
+  "processing-app-Base.processing-app-Base" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/processing-app-Base.processing-app-Base.xpm";
+  };
+  focuswriter.Focuswriter = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/focuswriter.Focuswriter.xpm";
+  };
+  inkscape.Inkscape = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/inkscape.Inkscape.xpm";
+  };
+  thunderbird.Thunderbird = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/thunderbird.Thunderbird.xpm";
+  };
+  "sound-juicer.Sound-juicer" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sound-juicer.Sound-juicer.xpm";
+  };
+  Pidgin.Pidgin = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Pidgin.Pidgin.xpm";
+  };
+  "SailfishOSSDK-Beta-1504-Qt5-linux-64-offline.run.SailfishOSSDK-Beta-1504-Qt5-linux-64-offline.run" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/SailfishOSSDK-Beta-1504-Qt5-linux-64-offline.run.SailfishOSSDK-Beta-1504-Qt5-linux-64-offline.run.xpm";
+  };
+  AcroRead = {
+    AlwaysUserIcon = Yes;
+    Icon = pdf.tiff;
+  };
+  "nightweb_desktop-core.nightweb_desktop-core" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/nightweb_desktop-core.nightweb_desktop-core.xpm";
+  };
+  "calibre-ebook-viewer.Calibre-ebook-viewer" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-ebook-viewer.Calibre-ebook-viewer.xpm";
+  };
+  wineboot.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/wineboot.exe.Wine.xpm";
+  };
+  xcalc = {
+    AlwaysUserIcon = Yes;
+    Icon = "HP-16C-48.xpm";
+  };
+  "sun-awt-X11-XFramePeer.net-sourceforge-jnlp-runtime-Boot" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.net-sourceforge-jnlp-runtime-Boot.xpm";
+  };
+  project1.Project1 = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/project1.Project1.xpm";
+  };
+  XTerm = {
+    Icon = Terminal.tiff;
+  };
+  kjobviewer = {
+    NoAppIcon = Yes;
+    SkipWindowList = Yes;
+    DontSaveSession = Yes;
+    Unfocusable = Yes;
+  };
+  START.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/START.exe.Wine.xpm";
+  };
+  groupLeader.WPrefs = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/groupLeader.WPrefs.xpm";
+  };
+  lyX.XForm = {
+    AlwaysUserIcon = Yes;
+    Icon = write.tiff;
+  };
+  "gdesklets-daemon.Gdesklets-daemon" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gdesklets-daemon.Gdesklets-daemon.xpm";
+  };
+  "setup-x86.exe.Wine" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/setup-x86.exe.Wine.xpm";
+  };
+  gedit.Gedit = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  };
+  xmixer = {
+    Icon = mixer.tiff;
+  };
+  opera.Opera = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/opera.Opera.xpm";
+  };
+  epdfview.Epdfview = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/epdfview.Epdfview.xpm";
+  };
+  seamonkey.Seamonkey = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/seamonkey.Seamonkey.xpm";
+  };
+  timidity.Timidity = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/timidity.Timidity.xpm";
+  };
+  "net-sourceforge-jnlp-runtime-Boot.net-sourceforge-jnlp-runtime-Boot" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/net-sourceforge-jnlp-runtime-Boot.net-sourceforge-jnlp-runtime-Boot.xpm";
+  };
+  The_Ex_Recovery_System_How_To_Get_Your_Ex_Back_Understanding_Your_Man_or_Woman_exe.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/The_Ex_Recovery_System_How_To_Get_Your_Ex_Back_Understanding_Your_Man_or_Woman_exe.exe.Wine.xpm";
+  };
+  gimp.Gimp = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp.Gimp.xpm";
+  };
+  evince.Evince = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/evince.Evince.xpm";
+  };
+  "claws-mail.Claws-mail" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/claws-mail.Claws-mail.xpm";
+  };
+  startlazarus.Startlazarus = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/startlazarus.Startlazarus.xpm";
+  };
+  emacs = {
+    Icon = ColorGNU.xpm;
+  };
+  dino.Dino = {
+    AlwaysUserIcon = No;
+    NoMiniaturizable = Yes;
+  };
+  lazarus.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/lazarus.exe.Wine.xpm";
+  };
+  Xman = {
+    AlwaysUserIcon = Yes;
+    Icon = Bookshelf.xpm;
+  };
+  . = {
+    NoAppIcon = Yes;
+  };
+  xplaycd = {
+    Icon = Radio.xpm;
+  };
+  openshot.Openshot = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/openshot.Openshot.xpm";
+  };
+  main.psi = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/main.psi.xpm";
+  };
+  pluma.Pluma = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/pluma.Pluma.xpm";
+  };
+  ScilabGraphic6.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  nedit.NEdit = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/nedit.NEdit.xpm";
+  };
+  ScilabGraphic5.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  ScilabGraphic4.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  "gimp-2.8.Gimp-2.8" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.8.Gimp-2.8.xpm";
+  };
+  owncloud.Owncloud = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/owncloud.Owncloud.xpm";
+  };
+  wmiv.default = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/wmiv.default.xpm";
+  };
+  Ghostview = {
+    Icon = Ghost.xpm;
+  };
+  ScilabGraphic3.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  "evince-previewer.Evince-previewer" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/evince-previewer.Evince-previewer.xpm";
+  };
+  ScilabGraphic2.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  kcmshell = {
+    NoAppIcon = Yes;
+  };
+  gnocky.Gnocky = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gnocky.Gnocky.xpm";
+  };
+  ScilabGraphic1.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  gthumb.Gthumb = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gthumb.Gthumb.xpm";
+  };
+  geeqie.Geeqie = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/geeqie.Geeqie.xpm";
+  };
+  winedbg.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/winedbg.exe.Wine.xpm";
+  };
+  ScilabGraphic0.Xscilab = {
+    KeepInsideScreen = YES;
+  };
+  "wifi-radar.Wifi-radar" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/wifi-radar.Wifi-radar.xpm";
+  };
+  "gimp-2.9.Gimp-2.9" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.9.Gimp-2.9.xpm";
+  };
+  screenshot.Screenshot = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/screenshot.Screenshot.xpm";
+  };
+  InnerPack.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/InnerPack.exe.Wine.xpm";
+  };
+  kio_uiserver = {
+    NoAppIcon = Yes;
+  };
+  XConsole = {
+    Icon = inspect.xpm;
+    Omnipresent = Yes;
+  };
+  xmms.Xmms = {
+    NoAppIcon = Yes;
+  };
+  "laz4android1.3-46592-FPC2.7.1.tmp.Wine" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/laz4android1.3-46592-FPC2.7.1.tmp.Wine.xpm";
+  };
+  scriptoria.Scriptoria = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/scriptoria.Scriptoria.xpm";
+  };
+  viking.Viking = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/viking.Viking.xpm";
+  };
+  gringotts.Gringotts = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gringotts.Gringotts.xpm";
+  };
+  xpad.Xpad = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xpad.Xpad.xpm";
+  };
+  command_shell.Ddd = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/command_shell.Ddd.xpm";
+  };
+  DockApp = {
+    NoAppIcon = NO;
+  };
+  Dialog.Thunderbird = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Dialog.Thunderbird.xpm";
+  };
+  atril.Atril = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/atril.Atril.xpm";
+  };
+  Gimp = {
+    Icon = wilber.tiff;
+  };
+  "myWidget-container-Paint.myWidget-container-Paint" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/myWidget-container-Paint.myWidget-container-Paint.xpm";
+  };
+  regedit.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/regedit.exe.Wine.xpm";
+  };
+  panel.Panel = {
+    NoAppIcon = YES;
+  };
+  manualBrowser.Xman = {
+    AlwaysUserIcon = Yes;
+    Icon = Book.xpm;
+  };
+  xterm.XTerm = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xterm.XTerm.xpm";
+  };
+  solarinfobank.Solarinfobank = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/solarinfobank.Solarinfobank.xpm";
+  };
+  gpartedbin.Gpartedbin = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gpartedbin.Gpartedbin.xpm";
+  };
+  puddletag.Puddletag = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/puddletag.Puddletag.xpm";
+  };
+  Fte = {
+    Icon = Clipboard.tif;
+  };
+  "ufraw-gimp.Ufraw-gimp" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ufraw-gimp.Ufraw-gimp.xpm";
+  };
+  "sun-awt-X11-XFramePeer.sun-applet-PluginMain" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.sun-applet-PluginMain.xpm";
+  };
+  subtitleeditor.Subtitleeditor = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/subtitleeditor.Subtitleeditor.xpm";
+  };
+  ufraw.Ufraw = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ufraw.Ufraw.xpm";
+  };
+  "roxterm-config.Roxterm-config" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/roxterm-config.Roxterm-config.xpm";
+  };
+  Fig = {
+    AlwaysUserIcon = Yes;
+    Icon = draw.tiff;
+  };
+  bookmarks.Netscape = {
+    NoAppIcon = YES;
+  };
+  xeyes.XEyes = {
+    NoResizebar = Yes;
+    NoBorder = Yes;
+    AlwaysUserIcon = No;
+    KeepOnTop = Yes;
+    NoCloseButton = Yes;
+    NoTitlebar = Yes;
+    NoMiniaturizeButton = Yes;
+    Unfocusable = Yes;
+    Omnipresent = Yes;
+  };
+  stardict.Stardict = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/stardict.Stardict.xpm";
+  };
+  Addons.Thunderbird = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Addons.Thunderbird.xpm";
+  };
+  fbreader.Fbreader = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/fbreader.Fbreader.xpm";
+  };
+  "ardour-3.5.403.Ardour-3.5.403" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ardour-3.5.403.Ardour-3.5.403.xpm";
+  };
+  D4X = {
+    KeepInsideScreen = Yes;
+  };
+  "vivaldi-stable.Vivaldi-stable" = {
+    AlwaysUserIcon = No;
+  };
+  "org-fibs-geotag-Geotag.org-fibs-geotag-Geotag" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/org-fibs-geotag-Geotag.org-fibs-geotag-Geotag.xpm";
+  };
+  "gnome-terminal.Gnome-terminal" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal.Gnome-terminal.xpm";
+  };
+  galculator.Galculator = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/galculator.Galculator.xpm";
+  };
+  xterm.UXTerm = {
+    AlwaysUserIcon = No;
+    Icon = xterm.UXTerm.xpm;
+  };
+  acroread.Acroread = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/acroread.Acroread.xpm";
+  };
+  licensedialog.Opera = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/licensedialog.Opera.xpm";
+  };
+  "Qt-subapplication.VirtualBox" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
+  };
+  "calibre-edit-book.Calibre-edit-book" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-edit-book.Calibre-edit-book.xpm";
+  };
+  Navigator.Nightly = {
+    AlwaysUserIcon = No;
+  };
+  "sun-applet-PluginMain.sun-applet-PluginMain" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-applet-PluginMain.sun-applet-PluginMain.xpm";
+  };
+  sylpheed.Sylpheed = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sylpheed.Sylpheed.xpm";
+  };
+  xv = {
+    AlwaysUserIcon = Yes;
+    Icon = xv.tiff;
+  };
+  "chromium-browser.Chromium-browser" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/chromium-browser.Chromium-browser.xpm";
+  };
+  xmcd = {
+    Icon = Radio.xpm;
+  };
+  Netscape = {
+    Icon = Netscape.xpm;
+  };
+  "sun-awt-X11-XFramePeer.org-fibs-geotag-Geotag" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.org-fibs-geotag-Geotag.xpm";
+  };
+  NXTerm = {
+    Icon = Terminal.tiff;
+  };
+  kded = {
+    NoAppIcon = Yes;
+  };
+  xjed = {
+    Icon = Clipboard.xpm;
+  };
+  skype.Skype = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/skype.Skype.xpm";
+  };
+  XPaint = {
+    AlwaysUserIcon = Yes;
+    Icon = Paint.xpm;
+  };
+  Xmessage = {
+    Icon = Reference.xpm;
+  };
+  Toolkit.Firefox = {
+    AlwaysUserIcon = No;
+    KeepOnTop = Yes;
+    Omnipresent = Yes;
+  };
+  Kinput2 = {
+    NoMouseBindings = Yes;
+    NoResizebar = Yes;
+    KeepInsideScreen = Yes;
+    NoAppIcon = Yes;
+    NoKeyBindings = Yes;
+    NoHideOthers = Yes;
+    SkipWindowList = Yes;
+    DontSaveSession = Yes;
+    NotClosable = Yes;
+    NotMiniaturizable = Yes;
+    KeepOnTop = Yes;
+    NoTitlebar = Yes;
+    Unfocusable = Yes;
+    Omnipresent = Yes;
+  };
+  "bitcoin-qt.Bitcoin-Qt" = {
+    AlwaysUserIcon = No;
+    StartWorkspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 9";
+  };
+  Xmag = {
+    Icon = inspect.xpm;
+  };
+  xedit = {
+    Icon = notepad.tiff;
+  };
+  "transmission-gtk.Transmission-gtk" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/transmission-gtk.Transmission-gtk.xpm";
+  };
+  D4X_DnDBasket.D4X_DnDBasket = {
+    NoResizebar = Yes;
+    KeepInsideScreen = Yes;
+    SkipWindowList = Yes;
+    DontSaveSession = Yes;
+    KeepOnTop = Yes;
+    NoCloseButton = Yes;
+    NoTitlebar = Yes;
+    NoMiniaturizeButton = Yes;
+    Unfocusable = Yes;
+    Omnipresent = Yes;
+  };
+  project1.exe.Wine = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/project1.exe.Wine.xpm";
+  };
+  XLess = {
+    AlwaysUserIcon = YES;
+    Icon = Reference.xpm;
+  };
+}
