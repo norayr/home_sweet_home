@@ -30,5 +30,8 @@ xrdb ~/.Xresources
 #fix for function keys
 #sudo su  - root -c "/bin/echo 2 > /sys/module/hid_apple/parameters/fnmode"
 xrandr --output DSI-1 --rotate right
+# to fix mouse axises
+xinput set-prop 7 "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
+
 
 
