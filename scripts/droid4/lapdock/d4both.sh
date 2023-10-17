@@ -3,3 +3,4 @@ xrandr --output DSI-1 --mode 540x960 --rotate right --output HDMI-1 --mode 1366x
 
 # now this doesnt work because of mouse flickering.
 
+
