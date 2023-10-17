@@ -32,6 +32,9 @@ xrdb ~/.Xresources
 xrandr --output DSI-1 --rotate right
 # to fix mouse axises
 xinput set-prop 7 "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
+# to blank after 180 seconds
+xset s 180
+
 
 
 
