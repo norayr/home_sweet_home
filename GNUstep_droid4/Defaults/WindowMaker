@@ -7,8 +7,6 @@
   MenuTextFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=12";
   MoveResizeKey = None;
   DragMaximizedWindow = Move;
-  RunKey = "Control+Mod1+R";
-  WindowShortcut10Key = None;
   PixmapPath = (
     "/home/noch/GNUstep/Library/WindowMaker/Pixmaps",
     "/home/noch/GNUstep/Library/WindowMaker/Backgrounds",
@@ -18,6 +16,8 @@
     "/usr/local/share/pixmaps",
     "/usr/share/pixmaps"
   );
+  RunKey = "Control+Mod1+R";
+  WindowShortcut10Key = None;
   NoWindowOverIcons = YES;
   AutoFocus = NO;
   MenuDisabledColor = "#7f7f7f";
@@ -29,28 +29,28 @@
   ToggleKbdModeKey = None;
   OpaqueMoveResizeKeyboard = NO;
   MenuTextColor = "#000000";
-  DockRaiseLowerKey = None;
   ClipAutolowerDelay = "";
-  KeepAtBottomKey = None;
+  DockRaiseLowerKey = None;
   HighlightTextColor = "#000000";
+  KeepAtBottomKey = None;
   FrameSelectedBorderColor = "#ffffff";
   KeepOnTopKey = None;
   MenuTitleColor = "#ffffff";
-  WorkspaceNameDisplayPosition = center;
   Superfluous = YES;
+  WorkspaceNameDisplayPosition = center;
   WorkspaceMapKey = "Mod4+Tab";
-  MoveToNextWorkspaceKey = None;
   WindowMenuKey = None;
+  MoveToNextWorkspaceKey = None;
   AppIconBalloons = NO;
   FTitleColor = "#ffffff";
-  MoveToWorkspace8Key = None;
   DoNotMakeAppIconsBounce = NO;
+  MoveToWorkspace8Key = None;
   WorkspaceBack = (solid, "#333340");
   HotCorners = NO;
   MoveToWorkspace9Key = None;
-  HideOthersKey = None;
   ViKeyMenus = NO;
   IconTitleFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=9";
+  HideOthersKey = None;
   FrameFocusedBorderColor = "#000000";
   IconPath = (
     "/home/noch/GNUstep/Library/Icons",
@@ -65,14 +65,14 @@
   UTitleColor = "#000000";
   ClipAutoraiseDelay = "";
   MoveTo6to12Head = None;
-  PTitleColor = "#ffffff";
   MiniwindowPreviewBalloons = NO;
-  Attraction = NO;
-  WorkspaceBorder = None;
+  PTitleColor = "#ffffff";
   ClipAutoexpandDelay = "";
+  WorkspaceBorder = None;
+  Attraction = NO;
   MoveTo12to6Head = None;
-  SingleClickLaunch = YES;
   HelpBalloons = NO;
+  SingleClickLaunch = YES;
   WindowShortcut8Key = None;
   DisableMiniwindows = YES;
   CClipTitleColor = "#616161";
@@ -84,8 +84,8 @@
   IconTitleColor = "#ffffff";
   Workspace10Key = None;
   CycleWorkspaces = YES;
-  MoveToWorkspace2Key = None;
   EnforceIconMargin = NO;
+  MoveToWorkspace2Key = None;
   AntialiasedText = YES;
   HideKey = None;
   GroupNextKey = None;
@@ -109,40 +109,40 @@
   MenuTitleFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=12";
   WindowShortcut6Key = None;
   RootMenuKey = "Control+space";
-  MoveToWorkspace7Key = None;
   LargeDisplayFont = "Arian Grqi:slant=0:weight=80:width=100:pixelsize=24";
-  WindowShortcut7Key = None;
+  MoveToWorkspace7Key = None;
   MoveToPrevWorkspaceLayerKey = None;
+  WindowShortcut7Key = None;
   HotCornerDelay = 250;
-  MoveToWorkspace4Key = None;
   THMaximizeKey = None;
+  MoveToWorkspace4Key = None;
   WorkspaceBorderSize = 0;
-  RHMaximizeKey = None;
   OpaqueResize = NO;
+  RHMaximizeKey = None;
   Workspace7Key = None;
   Workspace6Key = None;
   MoveToWorkspace5Key = None;
   Workspace5Key = None;
   Workspace4Key = None;
-  Workspace3Key = None;
   HotCornerEdge = 2;
+  Workspace3Key = None;
   RBCMaximizeKey = None;
   Workspace2Key = None;
-  MoveToWorkspace10Key = None;
   Workspace1Key = None;
+  MoveToWorkspace10Key = None;
   BHMaximizeKey = None;
-  GroupPrevKey = None;
   LHMaximizeKey = None;
+  GroupPrevKey = None;
   CirculateRaise = NO;
   IgnoreGtkHints = YES;
   LBCMaximizeKey = None;
   ScreenSwitchKey = None;
   WindowListKey = "Control+Shift+L";
-  IconTitleBack = "#000000";
   ClipAutocollapseDelay = "";
-  Workspace9Key = None;
+  IconTitleBack = "#000000";
   OpenTransientOnOwnerWorkspace = YES;
-  Workspace8Key = None;
+  Workspace9Key = None;
   HMaximizeKey = None;
+  Workspace8Key = None;
   EnableWorkspacePager = YES;
 }

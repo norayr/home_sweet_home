@@ -55,13 +55,13 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "wmnd %s";
-        Name = wmnd.wmnd;
-        DropCommand = "wmnd %d";
+        PasteCommand = "wmshutdown %s";
+        Name = wmshutdown.Wmshutdown;
+        DropCommand = "wmshutdown %d";
         Lock = Yes;
         AutoLaunch = Yes;
-        Command = wmnd;
-        Position = "0,4";
+        Command = wmshutdown;
+        Position = "0,8";
         Forced = No;
         BuggyApplication = No;
       },
@@ -75,10 +75,32 @@
         Position = "0,5";
         Forced = No;
         BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmcube %s";
+        Name = wmcube.wmcube;
+        DropCommand = "wmcube %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmcube;
+        Position = "0,7";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmbattery %s";
+        Name = wmbattery.wmbattery;
+        DropCommand = "wmbattery %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmbattery;
+        Position = "0,4";
+        Forced = No;
+        BuggyApplication = No;
       }
     );
     Lowered = Yes;
-    Position = "0,205";
+    Position = "0,125";
     AutoRaiseLower = No;
     Applications = (
       {
@@ -135,13 +157,13 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "wmnd %s";
-        Name = wmnd.wmnd;
-        DropCommand = "wmnd %d";
+        PasteCommand = "wmshutdown %s";
+        Name = wmshutdown.Wmshutdown;
+        DropCommand = "wmshutdown %d";
         Lock = Yes;
         AutoLaunch = Yes;
-        Command = wmnd;
-        Position = "0,4";
+        Command = wmshutdown;
+        Position = "0,8";
         Forced = No;
         BuggyApplication = No;
       },
@@ -153,6 +175,28 @@
         AutoLaunch = Yes;
         Command = "wmweather+ -metar-station UDYZ -location \"40.147222 44.395833\" -display-mode cur -animate -m -tempc";
         Position = "0,5";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmcube %s";
+        Name = wmcube.wmcube;
+        DropCommand = "wmcube %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmcube;
+        Position = "0,7";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmbattery %s";
+        Name = wmbattery.wmbattery;
+        DropCommand = "wmbattery %d";
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmbattery;
+        Position = "0,4";
         Forced = No;
         BuggyApplication = No;
       }

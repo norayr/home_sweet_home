@@ -1,30 +1,18 @@
 {
-  "nvidia-settings.Nvidia-settings" = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/nvidia-settings.Nvidia-settings.xpm";
+  "abiword-2.8.Abiword-2.8" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword-2.8.Abiword-2.8.xpm";
   };
-  abiword.Abiword = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword.Abiword.xpm";
+  gmc.Gmc = {
+    NoAppIcon = YES;
   };
-  soffice.Soffice = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  Stepman = {
+    Icon = Bookshelf.xpm;
   };
-  lazarus.Lazarus = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/lazarus.Lazarus.xpm";
+  "calibre-gui.Calibre-gui" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-gui.Calibre-gui.xpm";
   };
-  leafpad.Leafpad = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/leafpad.Leafpad.xpm";
-  };
-  roxterm.Roxterm = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/roxterm.Roxterm.xpm";
-  };
-  liferea.Liferea = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/liferea.Liferea.xpm";
-  };
-  "gdesklets-shell.Gdesklets-shell" = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gdesklets-shell.Gdesklets-shell.xpm";
-  };
-  gitview.Gitview = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gitview.Gitview.xpm";
+  vlc.Vlc = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.Vlc.xpm";
   };
   gkrellm.Gkrellm = {
     NoResizebar = Yes;
@@ -33,20 +21,32 @@
     NoTitlebar = Yes;
     Omnipresent = Yes;
   };
-  vlc.Vlc = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.Vlc.xpm";
+  gitview.Gitview = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gitview.Gitview.xpm";
   };
-  "calibre-gui.Calibre-gui" = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-gui.Calibre-gui.xpm";
+  "gdesklets-shell.Gdesklets-shell" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gdesklets-shell.Gdesklets-shell.xpm";
   };
-  Stepman = {
-    Icon = Bookshelf.xpm;
+  liferea.Liferea = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/liferea.Liferea.xpm";
   };
-  gmc.Gmc = {
-    NoAppIcon = YES;
+  roxterm.Roxterm = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/roxterm.Roxterm.xpm";
   };
-  "abiword-2.8.Abiword-2.8" = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword-2.8.Abiword-2.8.xpm";
+  leafpad.Leafpad = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/leafpad.Leafpad.xpm";
+  };
+  lazarus.Lazarus = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/lazarus.Lazarus.xpm";
+  };
+  soffice.Soffice = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  };
+  abiword.Abiword = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/abiword.Abiword.xpm";
+  };
+  "nvidia-settings.Nvidia-settings" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/nvidia-settings.Nvidia-settings.xpm";
   };
   gpodder.Gpodder = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gpodder.Gpodder.xpm";
@@ -123,14 +123,14 @@
   "setup-x86.exe.Wine" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/setup-x86.exe.Wine.xpm";
   };
-  gedit.Gedit = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  opera.Opera = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/opera.Opera.xpm";
   };
   xmixer = {
     Icon = mixer.tiff;
   };
-  opera.Opera = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/opera.Opera.xpm";
+  gedit.Gedit = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
   };
   epdfview.Epdfview = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/epdfview.Epdfview.xpm";
@@ -138,11 +138,11 @@
   seamonkey.Seamonkey = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/seamonkey.Seamonkey.xpm";
   };
-  timidity.Timidity = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/timidity.Timidity.xpm";
-  };
   "net-sourceforge-jnlp-runtime-Boot.net-sourceforge-jnlp-runtime-Boot" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/net-sourceforge-jnlp-runtime-Boot.net-sourceforge-jnlp-runtime-Boot.xpm";
+  };
+  timidity.Timidity = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/timidity.Timidity.xpm";
   };
   The_Ex_Recovery_System_How_To_Get_Your_Ex_Back_Understanding_Your_Man_or_Woman_exe.exe.Wine = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/The_Ex_Recovery_System_How_To_Get_Your_Ex_Back_Understanding_Your_Man_or_Woman_exe.exe.Wine.xpm";
@@ -197,53 +197,53 @@
   ScilabGraphic5.Xscilab = {
     KeepInsideScreen = YES;
   };
-  ScilabGraphic4.Xscilab = {
-    KeepInsideScreen = YES;
-  };
   "gimp-2.8.Gimp-2.8" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.8.Gimp-2.8.xpm";
   };
-  owncloud.Owncloud = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/owncloud.Owncloud.xpm";
+  ScilabGraphic4.Xscilab = {
+    KeepInsideScreen = YES;
   };
-  wmiv.default = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/wmiv.default.xpm";
+  ScilabGraphic3.Xscilab = {
+    KeepInsideScreen = YES;
   };
   Ghostview = {
     Icon = Ghost.xpm;
   };
-  ScilabGraphic3.Xscilab = {
+  wmiv.default = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/wmiv.default.xpm";
+  };
+  owncloud.Owncloud = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/owncloud.Owncloud.xpm";
+  };
+  ScilabGraphic2.Xscilab = {
     KeepInsideScreen = YES;
   };
   "evince-previewer.Evince-previewer" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/evince-previewer.Evince-previewer.xpm";
   };
-  ScilabGraphic2.Xscilab = {
-    KeepInsideScreen = YES;
+  gnocky.Gnocky = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gnocky.Gnocky.xpm";
   };
   kcmshell = {
     NoAppIcon = Yes;
   };
-  gnocky.Gnocky = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gnocky.Gnocky.xpm";
-  };
-  ScilabGraphic1.Xscilab = {
-    KeepInsideScreen = YES;
+  geeqie.Geeqie = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/geeqie.Geeqie.xpm";
   };
   gthumb.Gthumb = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gthumb.Gthumb.xpm";
   };
-  geeqie.Geeqie = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/geeqie.Geeqie.xpm";
+  ScilabGraphic1.Xscilab = {
+    KeepInsideScreen = YES;
   };
   winedbg.exe.Wine = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/winedbg.exe.Wine.xpm";
   };
-  ScilabGraphic0.Xscilab = {
-    KeepInsideScreen = YES;
-  };
   "wifi-radar.Wifi-radar" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/wifi-radar.Wifi-radar.xpm";
+  };
+  ScilabGraphic0.Xscilab = {
+    KeepInsideScreen = YES;
   };
   "gimp-2.9.Gimp-2.9" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.9.Gimp-2.9.xpm";
@@ -297,27 +297,27 @@
   "myWidget-container-Paint.myWidget-container-Paint" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/myWidget-container-Paint.myWidget-container-Paint.xpm";
   };
+  panel.Panel = {
+    NoAppIcon = YES;
+  };
   regedit.exe.Wine = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/regedit.exe.Wine.xpm";
   };
-  panel.Panel = {
-    NoAppIcon = YES;
+  solarinfobank.Solarinfobank = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/solarinfobank.Solarinfobank.xpm";
+  };
+  xterm.XTerm = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xterm.XTerm.xpm";
   };
   manualBrowser.Xman = {
     AlwaysUserIcon = Yes;
     Icon = Book.xpm;
   };
-  xterm.XTerm = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/xterm.XTerm.xpm";
-  };
-  solarinfobank.Solarinfobank = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/solarinfobank.Solarinfobank.xpm";
+  puddletag.Puddletag = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/puddletag.Puddletag.xpm";
   };
   gpartedbin.Gpartedbin = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/gpartedbin.Gpartedbin.xpm";
-  };
-  puddletag.Puddletag = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/puddletag.Puddletag.xpm";
   };
   Fte = {
     Icon = Clipboard.tif;
@@ -358,11 +358,11 @@
   stardict.Stardict = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/stardict.Stardict.xpm";
   };
-  Addons.Thunderbird = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Addons.Thunderbird.xpm";
-  };
   fbreader.Fbreader = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/fbreader.Fbreader.xpm";
+  };
+  Addons.Thunderbird = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Addons.Thunderbird.xpm";
   };
   "ardour-3.5.403.Ardour-3.5.403" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/ardour-3.5.403.Ardour-3.5.403.xpm";
@@ -392,14 +392,14 @@
   licensedialog.Opera = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/licensedialog.Opera.xpm";
   };
-  "Qt-subapplication.VirtualBox" = {
-    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
+  Navigator.Nightly = {
+    AlwaysUserIcon = No;
   };
   "calibre-edit-book.Calibre-edit-book" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/calibre-edit-book.Calibre-edit-book.xpm";
   };
-  Navigator.Nightly = {
-    AlwaysUserIcon = No;
+  "Qt-subapplication.VirtualBox" = {
+    Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
   };
   "sun-applet-PluginMain.sun-applet-PluginMain" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/sun-applet-PluginMain.sun-applet-PluginMain.xpm";
@@ -439,13 +439,17 @@
     AlwaysUserIcon = Yes;
     Icon = Paint.xpm;
   };
-  Xmessage = {
-    Icon = Reference.xpm;
-  };
   Toolkit.Firefox = {
     AlwaysUserIcon = No;
     KeepOnTop = Yes;
     Omnipresent = Yes;
+  };
+  Xmessage = {
+    Icon = Reference.xpm;
+  };
+  "bitcoin-qt.Bitcoin-Qt" = {
+    AlwaysUserIcon = No;
+    StartWorkspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 9";
   };
   Kinput2 = {
     NoMouseBindings = Yes;
@@ -463,15 +467,11 @@
     Unfocusable = Yes;
     Omnipresent = Yes;
   };
-  "bitcoin-qt.Bitcoin-Qt" = {
-    AlwaysUserIcon = No;
-    StartWorkspace = "\324\261\325\267\325\255\325\241\325\277\325\241\325\275\325\245\325\262\325\241\325\266 9";
+  xedit = {
+    Icon = notepad.tiff;
   };
   Xmag = {
     Icon = inspect.xpm;
-  };
-  xedit = {
-    Icon = notepad.tiff;
   };
   "transmission-gtk.Transmission-gtk" = {
     Icon = "/home/noch/GNUstep/Library/WindowMaker/CachedPixmaps/transmission-gtk.Transmission-gtk.xpm";
