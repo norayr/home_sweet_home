@@ -163,7 +163,7 @@
   ("firefox-private", EXEC, "/usr/bin/firefox -private-window"),
   (chromium, EXEC, "chromium-bin --incognito"),
   (netsurf, EXEC, "netsurf-gtk3"),
-  (lagrange, EXEC, "/usr/local/bin/lagrange.sh"),
+  (lagrange, EXEC, "~/bin/lagrange.sh"),
   ("mozilla seamonkey", EXEC, seamonkey),
   (xmag, SHORTCUT, "Control+Mod1+g", EXEC, xmag),
   (xkill, SHORTCUT, "Control+Mod1+k", EXEC, xkill),
