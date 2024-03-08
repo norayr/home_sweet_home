@@ -1,0 +1,3 @@
+cross-arm-none-eabi/binutils multilib
+cross-arm-none-eabi/gcc cxx -openmp -fortran -hardened -default-stack-clash-protection -ssp -sanitize -vtv -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -fortran -go -jit -mpx -openmp -sanitize -vtv multilib
+cross-arm-none-eabi/newlib -selinux -libraries multilib

@@ -1,0 +1,115 @@
+
+# temporary for git import from cvs and svn
+#dev-vcs/git cvs perl subversion
+#dev-vcs/subversion perl
+
+app-text/atril epub
+sys-auth/elogind -acl -cgroup-hybrid pam
+
+#lmms
+media-plugins/calf jack gtk lv2
+
+#obs
+media-video/obs-studio v4l alsa speex truetype ssl 
+# added rtmp to try to use ffmpeg standalone without obs
+# added vidstab for video stabilization filter
+media-video/ffmpeg v4l libv4l librtmp rtmp vaapi vdpau opus x264 cpudetection x265 openh264 vidstab
+
+#for seamonkey
+dev-db/sqlite secure-delete
+
+www-client/palemoon -gtk2 gtk3 optimize -debug jemalloc -valgrind
+
+dev-lang/fpc source
+dev-lang/lazarus gui extras gtk2
+net-fs/nfs-utils caps junction libmount nfsdcld nfsidmap nfsv4 nfsv41 uuid
+
+app-emulation/fuse backend-X -backend-gtk3
+
+media-gfx/dcraw jpeg nls lcms
+
+# ladspa i needed for listening to a podcast.
+media-video/mplayer libcaca ladspa tv v4l rtmp
+
+net-im/prosody -icu idn
+app-text/enchant aspell hunspell nuspell voikko
+
+net-im/profanity gpg -libnotify omemo omemo-qrcode otr
+
+net-im/psi -enchant hunspell -aspell
+app-crypt/qca qt5
+
+#xscreensaver
+x11-libs/motif jpeg png unicode xft
+
+#pandoc
+app-text/pandoc embed-data-files hscolour test doc
+
+#xsane
+net-dns/avahi dbus
+
+#evince
+app-text/evince postscript
+
+net-misc/aria2 bittorrent metalink xmlrpc
+net-p2p/transmission gtk
+
+sys-apps/systemd-utils     -udev
+media-libs/tiff            -webp
+x11-base/xorg-server       -minimal
+net-wireless/wpa_supplicant tkip wep wps uncommon-eap-types
+
+#for editing sailfish's alien dalvik system.img we need lz4 support
+sys-fs/squashfs-tools  xattr lz4 lzma lzo zstd
+
+app-editors/vim -minimal terminal
+app-editors/vim-core -minimal
+
+app-emulation/qemu gtk virtfs
+app-emulation/libvirt -bash-completion -caps -libvirtd -nls qemu -udev -virt-network
+app-emulation/libguestfs -fuse -libvirt -ocaml
+app-emulation/guestfs-tools -ocaml
+
+www-client/netsurf bmp fbcon gif gtk javascript jpeg mng png psl rosprite svgtiny truetype webp
+#media-video/qmplay2 vaapi vdpau videofilters vulkan extensions visualizations modplug -qt5 qt6 alsa
+
+#to keep samba minimal
+net-fs/samba -acl -pam -regedit -system-mitkrb5
+#net-fs/samba acl pam regedit system-mitkrb5 -addc -ads ceph client
+sys-libs/ldb -lmdb
+dev-perl/JSON -xs
+
+#to use less flags for chromium
+net-print/cups -X -acl -pam -ssl -usb -dbus -debug -kerberos -openssl -static-libs -systemd -test -xinetd -zeroconf
+appt-text/ghostscript-gpl -X -cups -dbus -gtk -static-libs
+net-print/cups-filters -foomatic -jpeg -pdf -png -postscript -tiff -dbus -ldap -pclm -perl -test -zeroconf
+apps-text/qpdf -ssl -doc -examples -gnutls -test
+
+#to use less flags for stardict
+app-text/stardict -htmlparse -powerwordparse -spell tools -wikiparse -wordnet xdxfparse
+#ստիպուած for stardict
+dev-libs/libxml2 python
+
+#sys-devel/gcc modula2 jit ada go
+sys-devel/gcc modula2 jit
+
+#xemacs
+app-editors/xemacs neXt
+
+#sox
+media-sound/sox twolame id3tag
+
+#dino
+gui-libs/libadwaita vala introspection
+app-text/gspell vala introspection
+
+media-gfx/graphviz -cairo -X
+
+#arandr
+#dev-python/pygobject cairo
+
+app-text/dictd -minimal
+
+
+media-gfx/gthumb lcms
+
