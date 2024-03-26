@@ -18,7 +18,7 @@ enable_tproxy() {
   _out_if="$iface"
 
   # LAN destinations that shouldn't be routed through Tor
-  _non_tor="127.0.0.0/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16"
+  _non_tor="127.0.0.0/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 192.168.1.0/16"
 
   # Other IANA reserved blocks (These are not processed by tor and dropped by default)
   _resv_iana="0.0.0.0/8 100.64.0.0/10 169.254.0.0/16 192.0.0.0/24 192.0.2.0/24 192.88.99.0/24 198.18.0.0/15 198.51.100.0/24 203.0.113.0/24 224.0.0.0/4 240.0.0.0/4 255.255.255.255/32"
@@ -91,6 +91,9 @@ enable_tproxy() {
   # Tor transproxy magic
   iptables -A OUTPUT -d 127.0.0.1/32 -p tcp -m tcp --dport $_trans_port \
     --tcp-flags FIN,SYN,RST,ACK SYN -j ACCEPT
+
+iptables -t nat -A OUTPUT -d 127.0.0.1/32 -p udp -m udp --dport 53 -j REDIRECT --to-ports $_dns_port
+
 
   # Allow OUTPUT to lan hosts in $_non_tor
   # Uncomment these 3 lines to enable.
