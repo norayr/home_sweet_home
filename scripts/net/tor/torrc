@@ -1,0 +1,26 @@
+#
+# Minimal torrc so tor will work out of the box
+#
+User tor
+PIDFile /run/tor/tor.pid
+Log notice syslog
+
+SocksPort 9050
+ControlPort 9051
+VirtualAddrNetworkIPv4 10.192.0.0/10
+AutomapHostsOnResolve 1
+TransPort 9040 IsolateClientAddr IsolateClientProtocol IsolateDestAddr IsolateDestPort
+DNSPort 5353
+CookieAuthentication 1
+
+
+DataDirectory /var/lib/tor/data
+
+
+
+HiddenServiceDir /var/lib/tor/hidden_service/
+#HiddenServicePort 80 127.0.0.1:80
+#HiddenServiceDir /var/lib/tor/other_hidden_service/
+#HiddenServicePort 80 127.0.0.1:80
+HiddenServicePort 22 127.0.0.1:22
+
