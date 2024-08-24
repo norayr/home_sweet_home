@@ -1,0 +1,1 @@
+#/bin/bash# mychfnt scriptMYFNT=${1-8x16}echo -n -e "\033]50;$MYFNT\007"
