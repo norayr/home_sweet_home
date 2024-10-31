@@ -24,7 +24,7 @@ process_episode() {
 
   cd "$EPISODE_DIR" || return
 
-# Episode metadata
+  # Episode metadata
   EPISODE_TITLE=$(basename "$EPISODE_DIR")
   EPISODE_TITLE_FORMATTED=$(echo "$EPISODE_TITLE" | sed 's/[-_]/ /g')
   ARTIST="inky from the tape"
@@ -84,7 +84,7 @@ process_episode() {
     if [[ -z "$AUDIO_FILE_MP3" ]]; then
       AUDIO_FILE_MP3="${SOURCE_AUDIO%.*}_320k.mp3"
       echo "Converting $SOURCE_AUDIO to $AUDIO_FILE_MP3 with metadata"
-      ffmpeg -i "$SOURCE_AUDIO" -b:a 320k \
+      ffmpeg -i "$SOURCE_AUDIO" -vn -b:a 320k \
         -metadata title="$EPISODE_TITLE" \
         -metadata artist="$ARTIST" \
         -metadata genre="$GENRE" \
@@ -95,7 +95,8 @@ process_episode() {
     if [[ -z "$AUDIO_FILE_OGG" ]]; then
       AUDIO_FILE_OGG="${SOURCE_AUDIO%.*}.ogg"
       echo "Converting $SOURCE_AUDIO to $AUDIO_FILE_OGG with highest quality and metadata"
-      ffmpeg -i "$SOURCE_AUDIO" -c:a libvorbis -qscale:a 10 \
+      #ffmpeg -i "$SOURCE_AUDIO" -vn -c:a libvorbis -qscale:a 10 \
+      ffmpeg -i "$SOURCE_AUDIO" -map 0:a -c:a libvorbis -qscale:a 10 \
         -metadata title="$EPISODE_TITLE" \
         -metadata artist="$ARTIST" \
         -metadata genre="$GENRE" \
@@ -222,6 +223,7 @@ EOF
   echo "<hr/>" >> "$INDEX_HTML"
 
   # Add entry to index.gmi
+  echo "=> $IMAGE_URL Episode Cover" >> "$INDEX_GMI"
   echo "=> $AUDIO_URL_OGG $EPISODE_DATE_DIR $EPISODE_TITLE_FORMATTED" >> "$INDEX_GMI"
 
   cd "$BASE_DIR" || exit
@@ -241,6 +243,7 @@ EOF
 # Initialize index.gmi
 cat <<EOF > "$INDEX_GMI"
 # inky's live sets and performances
+=> gemini://norayr.am/sets/spotlight.gmi spotlight
 
 EOF
 
@@ -313,6 +316,6 @@ echo "RSS feed generated at $RSS_FEED"
 echo "OGG RSS feed generated at $OGG_FEED"
 echo "Index HTML generated at $INDEX_HTML"
 echo "Index GMI generated at $INDEX_GMI"
-sed -i 's|https://norayr.am/sets/||' $INDEX_GMI
-cp $INDEX_GMI /srv/gemini/norayr.am/pub/sets/
+sed -i 's|https://norayr.am/sets/||' "$INDEX_GMI"
+cp "$INDEX_GMI" /srv/gemini/norayr.am/pub/sets/
 
