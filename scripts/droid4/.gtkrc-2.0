@@ -1,0 +1,15 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/usr/share/themes/Raleigh/gtk-2.0/gtkrc"
+gtk-theme-name="Raleigh"
+
+style "user-font" {
+  font_name = "Arian Grqi 16"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="Arian Grqi 16"
+
+include "/home/user/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT
